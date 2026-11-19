@@ -1,0 +1,501 @@
+session_id,intent,outcome,destination,origin,turn_bucket,n_turns,accent,noise_profile,disfluency,correction,barge_in,travelers,nights,budget,split
+S0001,build_itinerary,booked,Hong Kong,Chennai,medium,5,australian_english,cafe,1,0,0,1,4,129900,train
+S0002,build_itinerary,abandoned,Zurich,Chennai,long,8,uk_english,telephony_8k,0,1,1,2,4,237850,train
+S0003,plan_trip,abandoned,Tokyo,Bangalore,short,4,singapore_english,clean,0,0,0,4,4,302450,train
+S0004,search_book_hotel,changed_mind,Singapore,Hyderabad,medium,5,indian_english,car,1,0,0,4,5,187400,test
+S0005,search_book_hotel,tool_error,Seoul,Bangalore,short,3,us_english,street,0,0,0,3,5,201600,train
+S0006,plan_trip,booked,Sydney,Delhi,long,7,australian_english,car,0,0,0,3,7,376900,val
+S0007,plan_trip,changed_mind,Amsterdam,Bangalore,long,9,indian_english,street,0,0,0,1,7,118050,train
+S0008,search_book_flight,changed_mind,Maldives,Bangalore,medium,5,singapore_english,cafe,0,0,1,3,6,135600,train
+S0009,build_itinerary,cancelled,Goa,Delhi,short,4,us_english,telephony_8k,0,0,0,1,5,41550,train
+S0010,build_itinerary,tool_error,Phuket,Delhi,medium,6,uk_english,clean,0,1,0,2,7,147000,train
+S0011,search_book_hotel,cancelled,Istanbul,Hyderabad,long,8,singapore_english,cafe,0,1,0,1,5,93050,train
+S0012,search_book_hotel,booked,Barcelona,Mumbai,short,3,us_english,street,1,1,0,2,7,266800,train
+S0013,modify_refine,booked,Dubai,Bangalore,long,6,indian_english,clean,1,0,0,3,6,234350,train
+S0014,search_book_flight,booked,London,Chennai,short,3,uk_english,car,1,1,0,2,7,224050,train
+S0015,search_book_hotel,abandoned,Bangkok,Hyderabad,medium,4,australian_english,telephony_8k,0,0,0,3,4,102550,train
+S0016,search_book_flight,abandoned,Kuala Lumpur,Delhi,long,6,singapore_english,cafe,1,0,0,3,6,80400,train
+S0017,trip_management,tool_error,Rome,Mumbai,medium,4,australian_english,car,0,1,0,3,6,250550,train
+S0018,modify_refine,changed_mind,New York,Mumbai,short,4,indian_english,clean,1,0,0,2,5,313550,train
+S0019,modify_refine,tool_error,Bali,Mumbai,medium,6,us_english,telephony_8k,0,1,0,1,6,84150,train
+S0020,trip_management,changed_mind,Paris,Mumbai,long,6,uk_english,street,0,0,0,3,6,238800,train
+S0021,trip_management,booked,Seoul,Chennai,short,2,singapore_english,clean,1,0,0,3,6,220700,train
+S0022,modify_refine,cancelled,Maldives,Chennai,medium,6,uk_english,street,0,0,0,1,4,108800,test
+S0023,search_book_flight,tool_error,Goa,Hyderabad,short,3,indian_english,cafe,0,0,0,2,4,30000,train
+S0024,plan_trip,cancelled,Sydney,Delhi,long,8,us_english,telephony_8k,0,0,0,1,3,156450,train
+S0025,plan_trip,tool_error,Kuala Lumpur,Mumbai,medium,7,australian_english,car,0,0,0,4,3,133900,val
+S0026,trip_management,cancelled,Bali,Chennai,long,5,uk_english,street,0,1,0,2,3,106450,train
+S0027,search_book_flight,cancelled,Zurich,Hyderabad,short,3,australian_english,cafe,0,0,0,4,7,488100,train
+S0028,build_itinerary,changed_mind,Istanbul,Bangalore,long,7,singapore_english,telephony_8k,1,0,0,1,4,73700,train
+S0029,trip_management,abandoned,Singapore,Chennai,short,2,indian_english,clean,0,1,1,3,7,152800,train
+S0030,modify_refine,abandoned,Phuket,Mumbai,medium,5,us_english,car,0,0,0,4,5,141000,train
+S0031,build_itinerary,booked,London,Hyderabad,short,3,australian_english,cafe,1,0,0,2,7,361250,train
+S0032,build_itinerary,cancelled,Hong Kong,Delhi,medium,6,us_english,street,0,0,0,1,6,208950,train
+S0033,plan_trip,abandoned,Bangkok,Hyderabad,long,8,uk_english,clean,1,0,0,4,7,136600,train
+S0034,trip_management,tool_error,Tokyo,Bangalore,medium,3,indian_english,car,1,1,0,2,6,239950,train
+S0035,search_book_hotel,changed_mind,Rome,Mumbai,long,7,singapore_english,telephony_8k,0,0,0,1,6,154250,train
+S0036,search_book_flight,changed_mind,Amsterdam,Bangalore,short,4,indian_english,cafe,0,1,0,1,3,96400,train
+S0037,trip_management,booked,Barcelona,Delhi,long,5,australian_english,car,0,0,0,1,3,121150,train
+S0038,search_book_hotel,abandoned,New York,Bangalore,short,2,uk_english,clean,0,0,0,2,6,309150,train
+S0039,search_book_flight,abandoned,Dubai,Bangalore,medium,4,us_english,street,0,0,0,2,5,85150,train
+S0040,build_itinerary,abandoned,Paris,Delhi,long,7,singapore_english,telephony_8k,0,0,0,1,3,96900,train
+S0041,modify_refine,changed_mind,London,Hyderabad,medium,5,australian_english,clean,0,0,0,4,4,324100,train
+S0042,search_book_flight,cancelled,Dubai,Bangalore,short,4,uk_english,cafe,1,1,0,1,6,136750,val
+S0043,modify_refine,tool_error,Singapore,Bangalore,medium,5,indian_english,telephony_8k,0,0,1,1,7,168250,train
+S0044,build_itinerary,tool_error,Tokyo,Delhi,short,4,singapore_english,car,0,0,0,2,7,221750,test
+S0045,trip_management,changed_mind,Seoul,Delhi,long,6,us_english,street,0,0,0,2,7,171950,val
+S0046,trip_management,abandoned,Amsterdam,Delhi,medium,4,singapore_english,telephony_8k,1,0,1,2,7,230300,train
+S0047,plan_trip,changed_mind,Phuket,Chennai,short,6,uk_english,cafe,0,1,0,3,4,94450,test
+S0048,plan_trip,tool_error,Goa,Chennai,long,9,us_english,car,0,0,0,4,7,75350,train
+S0049,trip_management,cancelled,Barcelona,Hyderabad,short,2,indian_english,clean,1,1,1,2,3,148700,train
+S0050,modify_refine,abandoned,Sydney,Hyderabad,long,6,australian_english,street,1,0,0,2,5,203800,train
+S0051,search_book_hotel,tool_error,Kuala Lumpur,Delhi,medium,5,indian_english,clean,0,0,0,4,7,140650,val
+S0052,build_itinerary,changed_mind,Zurich,Mumbai,long,7,singapore_english,telephony_8k,1,0,1,2,3,226000,train
+S0053,search_book_hotel,cancelled,Bali,Chennai,short,3,uk_english,car,1,0,1,4,6,187100,train
+S0054,search_book_flight,booked,Maldives,Delhi,medium,4,australian_english,street,0,0,0,4,4,166800,train
+S0055,search_book_flight,tool_error,Istanbul,Mumbai,long,6,us_english,cafe,0,0,0,2,7,153550,test
+S0056,modify_refine,booked,Paris,Hyderabad,short,3,singapore_english,telephony_8k,1,0,0,1,7,132950,train
+S0057,plan_trip,cancelled,Rome,Bangalore,medium,6,indian_english,cafe,0,0,0,4,5,429250,train
+S0058,modify_refine,cancelled,Bangkok,Mumbai,medium,6,uk_english,clean,0,0,0,3,6,103300,train
+S0059,search_book_hotel,booked,New York,Delhi,short,2,us_english,street,0,0,1,1,7,227050,train
+S0060,plan_trip,booked,Hong Kong,Chennai,long,7,australian_english,car,0,0,1,1,5,109950,train
+S0061,trip_management,changed_mind,Rome,Chennai,short,3,singapore_english,telephony_8k,0,0,0,2,4,205100,train
+S0062,plan_trip,abandoned,Amsterdam,Hyderabad,medium,6,us_english,street,0,0,0,2,7,162350,train
+S0063,search_book_flight,tool_error,New York,Hyderabad,long,8,indian_english,car,1,1,1,4,5,531600,train
+S0064,search_book_flight,cancelled,London,Delhi,long,6,australian_english,cafe,1,0,0,3,6,330350,test
+S0065,build_itinerary,booked,Tokyo,Hyderabad,short,3,uk_english,clean,1,0,0,2,4,202200,train
+S0066,search_book_hotel,changed_mind,Kuala Lumpur,Delhi,medium,4,indian_english,telephony_8k,0,0,1,4,7,111500,train
+S0067,build_itinerary,abandoned,Dubai,Mumbai,long,7,uk_english,cafe,0,0,0,1,6,94750,train
+S0068,search_book_hotel,cancelled,Phuket,Mumbai,medium,5,us_english,street,0,0,0,2,3,109100,train
+S0069,modify_refine,booked,Goa,Bangalore,short,3,australian_english,car,0,0,1,1,7,49050,train
+S0070,trip_management,abandoned,Barcelona,Mumbai,short,2,singapore_english,clean,0,0,1,2,5,246200,train
+S0071,search_book_hotel,booked,Maldives,Delhi,long,5,us_english,cafe,0,0,0,1,5,200300,train
+S0072,search_book_flight,abandoned,Hong Kong,Mumbai,medium,4,uk_english,clean,0,0,0,1,3,73000,train
+S0073,modify_refine,tool_error,Bangkok,Delhi,medium,6,indian_english,car,1,0,0,1,3,33700,train
+S0074,trip_management,booked,Singapore,Hyderabad,short,2,singapore_english,street,1,0,0,2,6,161850,train
+S0075,plan_trip,changed_mind,Sydney,Mumbai,long,8,australian_english,telephony_8k,0,0,0,1,3,134950,train
+S0076,plan_trip,booked,Istanbul,Delhi,short,4,uk_english,car,1,0,0,2,5,162750,train
+S0077,modify_refine,changed_mind,Seoul,Hyderabad,long,9,indian_english,street,1,1,0,4,7,238300,val
+S0078,build_itinerary,tool_error,Bali,Chennai,medium,5,australian_english,telephony_8k,0,0,1,2,3,114200,train
+S0079,search_book_flight,booked,Paris,Mumbai,medium,3,us_english,clean,1,0,0,2,4,188000,train
+S0080,trip_management,tool_error,Zurich,Chennai,long,6,singapore_english,cafe,0,0,0,1,7,192500,val
+S0081,plan_trip,cancelled,Istanbul,Delhi,short,5,us_english,cafe,1,0,1,2,7,134150,train
+S0082,build_itinerary,cancelled,Kuala Lumpur,Hyderabad,long,7,indian_english,car,0,0,1,1,7,69250,train
+S0083,search_book_hotel,tool_error,Dubai,Chennai,short,3,singapore_english,clean,0,0,1,1,7,87900,train
+S0084,build_itinerary,changed_mind,Barcelona,Bangalore,medium,6,uk_english,telephony_8k,0,1,0,2,5,209750,val
+S0085,modify_refine,cancelled,Tokyo,Bangalore,medium,6,australian_english,street,1,0,0,1,3,106500,val
+S0086,search_book_hotel,abandoned,Zurich,Bangalore,long,6,uk_english,cafe,1,0,0,4,6,462850,train
+S0087,plan_trip,tool_error,Maldives,Bangalore,short,6,australian_english,clean,0,1,0,2,3,115450,train
+S0088,trip_management,cancelled,Singapore,Chennai,short,2,us_english,street,0,0,0,4,4,176350,test
+S0089,search_book_flight,changed_mind,Bali,Chennai,long,7,indian_english,car,0,0,0,1,6,54500,train
+S0090,modify_refine,abandoned,Goa,Mumbai,medium,5,singapore_english,telephony_8k,0,0,0,3,7,74050,train
+S0091,plan_trip,cancelled,Seoul,Chennai,short,5,australian_english,street,0,0,0,2,7,126200,train
+S0092,plan_trip,tool_error,Amsterdam,Hyderabad,long,9,indian_english,cafe,1,0,0,3,4,235950,train
+S0093,trip_management,booked,London,Hyderabad,medium,4,singapore_english,car,0,1,0,2,4,193450,train
+S0094,modify_refine,cancelled,Paris,Chennai,short,4,uk_english,telephony_8k,1,0,0,4,3,282200,test
+S0095,plan_trip,abandoned,Sydney,Hyderabad,long,7,us_english,clean,1,0,0,4,7,403950,train
+S0096,build_itinerary,abandoned,Bangkok,Bangalore,medium,4,uk_english,cafe,1,0,0,2,3,62900,train
+S0097,modify_refine,changed_mind,Phuket,Mumbai,medium,6,us_english,street,1,1,0,4,7,152300,train
+S0098,modify_refine,abandoned,Hong Kong,Chennai,long,7,singapore_english,clean,0,0,0,2,3,126100,train
+S0099,trip_management,changed_mind,New York,Bangalore,short,3,indian_english,telephony_8k,0,1,0,4,7,610850,train
+S0100,build_itinerary,cancelled,Rome,Mumbai,medium,5,australian_english,car,1,0,0,1,6,125200,train
+S0101,search_book_hotel,tool_error,Sydney,Hyderabad,short,3,singapore_english,car,0,0,0,4,7,408550,train
+S0102,modify_refine,booked,Bangkok,Delhi,long,8,australian_english,cafe,0,1,1,1,7,69250,train
+S0103,build_itinerary,booked,Barcelona,Chennai,short,3,us_english,clean,0,0,0,2,5,253700,train
+S0104,build_itinerary,tool_error,Hong Kong,Bangalore,long,9,indian_english,telephony_8k,1,1,0,2,6,168200,train
+S0105,search_book_flight,booked,Amsterdam,Hyderabad,medium,4,uk_english,street,0,1,0,1,5,134200,train
+S0106,build_itinerary,changed_mind,Dubai,Delhi,long,7,singapore_english,clean,0,0,0,2,3,76950,train
+S0107,plan_trip,changed_mind,Paris,Bangalore,medium,7,us_english,cafe,0,0,0,1,6,153000,train
+S0108,search_book_flight,tool_error,Goa,Mumbai,short,3,indian_english,car,0,0,0,4,3,48000,train
+S0109,search_book_hotel,booked,Istanbul,Hyderabad,short,2,uk_english,street,1,0,0,3,6,273200,train
+S0110,search_book_hotel,changed_mind,Maldives,Bangalore,long,7,australian_english,telephony_8k,0,0,0,2,6,171950,train
+S0111,trip_management,tool_error,Bali,Delhi,medium,4,us_english,clean,1,0,0,3,6,178300,train
+S0112,plan_trip,booked,London,Mumbai,short,4,australian_english,cafe,0,0,1,1,4,126200,train
+S0113,modify_refine,tool_error,Kuala Lumpur,Bangalore,long,7,singapore_english,street,0,0,0,1,5,43750,train
+S0114,trip_management,cancelled,Rome,Chennai,medium,4,uk_english,car,1,0,0,2,3,158550,val
+S0115,search_book_flight,cancelled,Zurich,Mumbai,medium,5,indian_english,telephony_8k,0,1,0,2,5,173900,val
+S0116,search_book_hotel,abandoned,Phuket,Chennai,short,2,australian_english,telephony_8k,0,0,0,2,4,128150,train
+S0117,search_book_hotel,cancelled,Seoul,Delhi,long,6,us_english,street,1,0,1,3,5,188800,train
+S0118,trip_management,abandoned,New York,Hyderabad,short,2,singapore_english,cafe,0,0,0,2,3,249950,train
+S0119,search_book_flight,abandoned,Tokyo,Chennai,long,5,indian_english,clean,0,0,0,3,7,271750,train
+S0120,search_book_flight,changed_mind,Singapore,Mumbai,medium,4,uk_english,car,0,0,0,4,3,150250,train
+S0121,build_itinerary,booked,Tokyo,Chennai,short,3,uk_english,telephony_8k,1,0,0,1,4,111900,val
+S0122,search_book_flight,changed_mind,Singapore,Chennai,long,6,australian_english,cafe,1,0,0,4,5,217900,train
+S0123,search_book_flight,cancelled,Hong Kong,Delhi,medium,4,indian_english,street,0,0,0,2,4,181450,train
+S0124,plan_trip,cancelled,Barcelona,Bangalore,long,8,singapore_english,car,1,0,0,4,5,335550,train
+S0125,plan_trip,changed_mind,Bali,Chennai,short,5,us_english,clean,0,0,0,2,7,140450,train
+S0126,modify_refine,cancelled,Kuala Lumpur,Hyderabad,medium,5,indian_english,street,0,0,0,1,5,47700,train
+S0127,modify_refine,changed_mind,Paris,Delhi,short,4,singapore_english,telephony_8k,0,0,0,4,5,369400,train
+S0128,trip_management,abandoned,Amsterdam,Mumbai,medium,3,uk_english,cafe,0,0,1,4,3,320400,train
+S0129,search_book_flight,booked,Phuket,Hyderabad,long,7,us_english,car,0,1,1,4,3,139100,train
+S0130,modify_refine,booked,London,Hyderabad,medium,4,australian_english,clean,0,0,0,4,4,323200,train
+S0131,search_book_hotel,cancelled,Seoul,Chennai,long,7,us_english,street,0,0,0,1,4,89900,train
+S0132,modify_refine,abandoned,Maldives,Delhi,short,3,uk_english,cafe,0,0,1,1,6,97550,train
+S0133,plan_trip,booked,New York,Bangalore,medium,6,singapore_english,telephony_8k,0,1,0,4,7,651150,train
+S0134,build_itinerary,changed_mind,Goa,Chennai,long,7,indian_english,car,0,0,0,2,5,29850,train
+S0135,trip_management,changed_mind,Sydney,Chennai,short,3,australian_english,clean,1,0,0,4,5,442100,val
+S0136,plan_trip,abandoned,Rome,Delhi,long,8,singapore_english,car,1,0,0,4,6,365550,train
+S0137,search_book_flight,tool_error,Bangkok,Delhi,short,3,australian_english,street,0,0,1,2,6,79900,train
+S0138,search_book_flight,abandoned,Dubai,Chennai,medium,4,indian_english,clean,1,1,0,3,6,234500,val
+S0139,build_itinerary,tool_error,Istanbul,Bangalore,short,4,us_english,telephony_8k,1,0,1,2,4,106350,train
+S0140,search_book_hotel,changed_mind,Zurich,Chennai,medium,5,uk_english,cafe,0,0,0,2,6,406100,train
+S0141,plan_trip,tool_error,Istanbul,Mumbai,long,8,australian_english,car,0,0,1,2,3,121800,val
+S0142,build_itinerary,abandoned,London,Hyderabad,medium,4,us_english,street,0,0,0,2,6,354900,train
+S0143,trip_management,cancelled,Amsterdam,Hyderabad,long,5,singapore_english,telephony_8k,0,0,0,1,6,239200,test
+S0144,trip_management,tool_error,Dubai,Bangalore,short,3,uk_english,clean,0,1,0,1,5,82950,test
+S0145,search_book_hotel,booked,Paris,Delhi,short,3,indian_english,cafe,0,1,0,4,4,359400,test
+S0146,trip_management,booked,New York,Bangalore,medium,4,uk_english,street,1,0,0,2,4,273750,train
+S0147,modify_refine,tool_error,Maldives,Delhi,long,7,us_english,clean,1,0,0,1,5,80450,train
+S0148,search_book_hotel,abandoned,Rome,Mumbai,medium,4,australian_english,telephony_8k,0,1,0,1,7,128450,train
+S0149,search_book_hotel,tool_error,Bali,Hyderabad,short,3,singapore_english,cafe,1,0,0,3,5,133000,train
+S0150,build_itinerary,cancelled,Seoul,Bangalore,long,7,indian_english,car,1,0,0,4,6,317850,test
+S0151,search_book_flight,changed_mind,Hong Kong,Hyderabad,short,4,us_english,cafe,1,1,0,1,6,105000,train
+S0152,search_book_hotel,cancelled,Singapore,Bangalore,long,7,uk_english,clean,0,0,1,4,4,183600,train
+S0153,search_book_flight,booked,Sydney,Hyderabad,medium,4,indian_english,street,0,0,0,3,5,300650,train
+S0154,plan_trip,tool_error,Phuket,Bangalore,short,5,australian_english,telephony_8k,1,0,0,2,5,142050,train
+S0155,plan_trip,abandoned,Tokyo,Mumbai,medium,5,singapore_english,car,0,0,0,2,4,186500,train
+S0156,search_book_flight,tool_error,Goa,Hyderabad,long,6,us_english,clean,0,0,0,2,3,55100,train
+S0157,build_itinerary,booked,Kuala Lumpur,Hyderabad,medium,5,singapore_english,car,0,1,0,3,5,148400,train
+S0158,plan_trip,booked,Zurich,Bangalore,short,4,uk_english,street,1,0,1,1,6,195650,train
+S0159,build_itinerary,cancelled,Bangkok,Delhi,long,8,indian_english,telephony_8k,0,0,0,2,6,67950,train
+S0160,build_itinerary,tool_error,Barcelona,Delhi,short,4,australian_english,cafe,1,0,0,1,4,120500,val
+S0161,trip_management,abandoned,New York,Bangalore,long,5,australian_english,street,0,0,0,1,4,118900,val
+S0162,modify_refine,booked,Kuala Lumpur,Hyderabad,medium,5,indian_english,clean,0,1,1,3,7,119400,train
+S0163,plan_trip,changed_mind,Tokyo,Bangalore,long,8,singapore_english,cafe,1,0,1,2,3,195900,train
+S0164,search_book_hotel,abandoned,Amsterdam,Bangalore,short,2,uk_english,telephony_8k,1,0,0,1,7,119800,train
+S0165,modify_refine,changed_mind,Bangkok,Hyderabad,medium,7,us_english,car,1,1,0,1,3,40250,test
+S0166,modify_refine,cancelled,London,Mumbai,medium,6,australian_english,clean,0,1,1,2,4,229650,val
+S0167,trip_management,cancelled,Singapore,Delhi,short,2,us_english,cafe,0,1,0,3,4,143800,val
+S0168,search_book_flight,abandoned,Barcelona,Bangalore,long,5,indian_english,telephony_8k,1,0,0,1,5,133750,test
+S0169,plan_trip,cancelled,Bali,Hyderabad,long,8,uk_english,street,1,0,0,1,3,48550,test
+S0170,build_itinerary,changed_mind,Rome,Mumbai,medium,5,singapore_english,car,0,0,0,2,6,194850,train
+S0171,trip_management,booked,Phuket,Bangalore,short,2,australian_english,cafe,0,1,1,3,3,108000,train
+S0172,search_book_hotel,changed_mind,Seoul,Chennai,medium,4,singapore_english,telephony_8k,0,0,0,2,7,183250,train
+S0173,search_book_hotel,booked,Dubai,Chennai,long,5,uk_english,clean,1,0,0,3,5,200800,train
+S0174,search_book_hotel,tool_error,Hong Kong,Hyderabad,short,3,indian_english,car,0,0,1,2,6,226750,train
+S0175,modify_refine,abandoned,Goa,Delhi,short,3,us_english,street,1,0,0,2,5,33800,train
+S0176,trip_management,changed_mind,Maldives,Delhi,long,6,australian_english,car,0,0,1,1,5,77100,train
+S0177,build_itinerary,abandoned,Paris,Delhi,medium,5,uk_english,cafe,0,0,0,2,4,175900,train
+S0178,search_book_flight,cancelled,Zurich,Mumbai,long,7,us_english,clean,0,1,0,1,6,129550,train
+S0179,trip_management,tool_error,Istanbul,Mumbai,medium,4,singapore_english,telephony_8k,1,0,0,3,6,212250,train
+S0180,modify_refine,tool_error,Sydney,Hyderabad,short,5,indian_english,street,1,1,0,4,6,471600,test
+S0181,trip_management,changed_mind,Goa,Bangalore,medium,5,singapore_english,clean,0,0,1,3,3,47250,train
+S0182,modify_refine,changed_mind,Hong Kong,Delhi,short,5,uk_english,car,1,1,0,2,6,116500,train
+S0183,plan_trip,abandoned,Tokyo,Delhi,long,8,us_english,telephony_8k,1,1,1,2,5,176750,train
+S0184,trip_management,booked,Seoul,Delhi,long,4,australian_english,cafe,0,0,0,3,6,276750,train
+S0185,search_book_flight,tool_error,Sydney,Bangalore,short,4,indian_english,street,0,1,1,1,4,129650,train
+S0186,search_book_hotel,tool_error,Amsterdam,Bangalore,medium,4,australian_english,clean,1,0,1,1,4,113000,train
+S0187,modify_refine,tool_error,Maldives,Chennai,short,4,us_english,telephony_8k,0,0,0,1,3,88100,train
+S0188,search_book_hotel,abandoned,Bangkok,Hyderabad,medium,3,singapore_english,cafe,0,0,0,1,5,40850,train
+S0189,build_itinerary,cancelled,Paris,Chennai,long,8,uk_english,car,0,0,0,4,4,436000,test
+S0190,plan_trip,booked,Barcelona,Chennai,medium,7,indian_english,street,1,1,1,3,3,285150,train
+S0191,build_itinerary,tool_error,Dubai,Mumbai,long,8,australian_english,car,0,1,0,1,7,144200,train
+S0192,search_book_hotel,changed_mind,Zurich,Bangalore,short,4,singapore_english,cafe,1,1,1,1,7,223950,train
+S0193,plan_trip,tool_error,Phuket,Delhi,short,6,uk_english,telephony_8k,1,1,0,3,6,148100,train
+S0194,plan_trip,cancelled,Kuala Lumpur,Delhi,long,9,indian_english,clean,1,1,0,2,7,62650,train
+S0195,build_itinerary,changed_mind,Rome,Mumbai,medium,7,us_english,street,0,1,1,4,6,313400,train
+S0196,search_book_flight,changed_mind,New York,Chennai,short,3,australian_english,telephony_8k,0,0,0,1,7,327800,train
+S0197,modify_refine,booked,London,Hyderabad,long,7,uk_english,cafe,0,0,0,1,4,109000,train
+S0198,search_book_hotel,booked,Istanbul,Mumbai,medium,4,singapore_english,clean,1,0,0,2,5,136850,train
+S0199,modify_refine,cancelled,Bali,Delhi,medium,6,indian_english,street,0,0,0,2,7,128750,val
+S0200,search_book_flight,cancelled,Singapore,Hyderabad,long,7,us_english,car,1,1,0,1,7,118100,val
+S0201,plan_trip,changed_mind,Bangkok,Chennai,short,5,indian_english,cafe,1,0,0,2,4,71950,test
+S0202,trip_management,abandoned,Dubai,Hyderabad,long,4,singapore_english,telephony_8k,1,1,1,2,6,101150,train
+S0203,search_book_flight,booked,Tokyo,Bangalore,medium,3,uk_english,car,1,0,0,3,3,241050,train
+S0204,build_itinerary,booked,New York,Chennai,short,3,australian_english,street,0,0,0,3,5,307800,test
+S0205,build_itinerary,abandoned,Sydney,Mumbai,medium,5,us_english,clean,1,1,1,1,4,150350,train
+S0206,search_book_flight,abandoned,Seoul,Bangalore,long,5,uk_english,clean,0,0,0,1,7,100350,train
+S0207,modify_refine,abandoned,Singapore,Delhi,short,3,australian_english,cafe,0,0,1,1,7,127500,train
+S0208,trip_management,tool_error,Goa,Bangalore,medium,4,indian_english,telephony_8k,1,0,0,1,4,32500,train
+S0209,trip_management,cancelled,Rome,Hyderabad,short,2,singapore_english,car,0,1,1,1,3,113600,train
+S0210,search_book_hotel,cancelled,Bali,Hyderabad,long,6,us_english,street,0,0,0,1,6,63500,train
+S0211,trip_management,abandoned,Maldives,Mumbai,medium,4,us_english,street,0,1,1,2,3,110900,train
+S0212,search_book_hotel,abandoned,Istanbul,Mumbai,long,5,australian_english,telephony_8k,0,0,0,1,6,158100,val
+S0213,search_book_flight,cancelled,Amsterdam,Chennai,short,3,singapore_english,clean,0,0,0,2,5,250300,test
+S0214,build_itinerary,cancelled,Kuala Lumpur,Delhi,short,4,uk_english,cafe,1,0,0,3,6,89700,train
+S0215,modify_refine,tool_error,Hong Kong,Chennai,long,7,indian_english,car,0,0,0,1,7,138600,train
+S0216,trip_management,booked,Barcelona,Hyderabad,medium,3,australian_english,cafe,1,0,0,1,5,139250,test
+S0217,search_book_flight,abandoned,London,Hyderabad,short,2,uk_english,car,1,0,0,2,7,358650,train
+S0218,build_itinerary,changed_mind,Zurich,Mumbai,long,7,singapore_english,clean,0,0,0,4,7,409050,train
+S0219,search_book_hotel,booked,Phuket,Mumbai,medium,3,indian_english,street,0,0,0,1,3,44550,test
+S0220,plan_trip,changed_mind,Paris,Mumbai,long,10,us_english,telephony_8k,1,1,0,1,5,143200,train
+S0221,build_itinerary,tool_error,Goa,Bangalore,medium,6,indian_english,car,0,0,0,3,7,64900,train
+S0222,plan_trip,abandoned,Singapore,Chennai,short,4,us_english,street,1,0,1,4,4,233350,train
+S0223,trip_management,tool_error,Sydney,Delhi,short,3,uk_english,clean,0,0,0,2,6,312150,train
+S0224,search_book_flight,tool_error,Paris,Chennai,long,7,australian_english,cafe,0,1,0,1,6,236400,train
+S0225,modify_refine,abandoned,Rome,Chennai,medium,4,singapore_english,telephony_8k,0,0,0,1,4,100600,val
+S0226,search_book_hotel,cancelled,Hong Kong,Hyderabad,medium,4,us_english,car,1,0,0,2,7,192250,train
+S0227,build_itinerary,abandoned,Kuala Lumpur,Mumbai,short,3,australian_english,clean,0,0,1,2,6,96200,test
+S0228,search_book_flight,booked,New York,Mumbai,long,5,singapore_english,street,0,0,0,1,4,138200,train
+S0229,modify_refine,cancelled,Dubai,Mumbai,medium,6,indian_english,cafe,1,1,0,3,7,175050,train
+S0230,search_book_hotel,tool_error,Seoul,Bangalore,long,8,uk_english,telephony_8k,0,1,1,2,6,178800,val
+S0231,plan_trip,tool_error,Barcelona,Mumbai,short,5,australian_english,car,0,0,0,2,7,232400,val
+S0232,plan_trip,booked,Tokyo,Mumbai,medium,6,us_english,street,0,0,0,2,3,161550,train
+S0233,modify_refine,booked,Bali,Chennai,long,6,indian_english,cafe,1,0,1,2,4,101650,train
+S0234,plan_trip,cancelled,Phuket,Mumbai,short,6,singapore_english,telephony_8k,0,1,0,2,3,99800,train
+S0235,search_book_flight,changed_mind,Maldives,Chennai,medium,5,uk_english,clean,0,0,0,2,7,204850,train
+S0236,trip_management,changed_mind,Istanbul,Bangalore,short,3,australian_english,cafe,0,0,1,1,7,161800,train
+S0237,build_itinerary,booked,Bangkok,Chennai,long,7,singapore_english,telephony_8k,0,0,0,2,5,92500,train
+S0238,search_book_hotel,changed_mind,London,Delhi,short,3,us_english,street,0,0,0,3,6,416450,test
+S0239,trip_management,cancelled,Amsterdam,Delhi,long,4,indian_english,clean,0,0,0,2,5,279300,train
+S0240,modify_refine,changed_mind,Zurich,Mumbai,medium,6,uk_english,car,0,1,0,1,3,196300,train
+S0241,modify_refine,changed_mind,London,Chennai,short,5,indian_english,telephony_8k,0,1,0,2,3,187050,train
+S0242,plan_trip,booked,Singapore,Delhi,medium,6,uk_english,street,0,0,1,1,4,76450,train
+S0243,build_itinerary,cancelled,Goa,Delhi,long,7,us_english,car,0,0,0,2,4,37600,test
+S0244,search_book_hotel,changed_mind,Bangkok,Bangalore,short,3,singapore_english,cafe,0,0,1,1,6,53550,train
+S0245,search_book_flight,cancelled,Dubai,Chennai,long,7,australian_english,clean,0,0,0,3,6,227250,val
+S0246,search_book_flight,abandoned,Phuket,Bangalore,medium,3,indian_english,clean,0,0,0,4,6,159600,train
+S0247,build_itinerary,tool_error,Istanbul,Delhi,short,4,singapore_english,street,1,0,0,2,6,117300,val
+S0248,plan_trip,abandoned,Amsterdam,Delhi,long,7,uk_english,telephony_8k,1,0,0,1,4,107350,train
+S0249,build_itinerary,changed_mind,Bali,Bangalore,medium,5,australian_english,cafe,0,0,1,2,6,111700,train
+S0250,search_book_hotel,booked,New York,Hyderabad,medium,4,us_english,car,1,0,0,1,5,198700,train
+S0251,trip_management,cancelled,Hong Kong,Hyderabad,long,5,australian_english,cafe,1,0,0,2,6,140500,val
+S0252,search_book_hotel,tool_error,Zurich,Delhi,short,4,us_english,telephony_8k,0,1,0,3,6,494450,train
+S0253,plan_trip,tool_error,Paris,Chennai,short,5,indian_english,car,0,0,0,1,4,114500,train
+S0254,plan_trip,cancelled,Tokyo,Hyderabad,long,8,singapore_english,clean,1,0,0,1,4,95250,train
+S0255,search_book_hotel,abandoned,Rome,Bangalore,medium,3,uk_english,street,0,0,0,1,6,151600,val
+S0256,plan_trip,changed_mind,Maldives,Hyderabad,long,9,us_english,street,0,0,0,1,4,67450,train
+S0257,trip_management,booked,Sydney,Mumbai,medium,2,singapore_english,cafe,0,0,0,1,4,156150,train
+S0258,modify_refine,abandoned,Kuala Lumpur,Bangalore,short,3,uk_english,car,0,0,0,2,7,91600,train
+S0259,trip_management,changed_mind,Barcelona,Hyderabad,short,3,australian_english,clean,0,0,1,3,3,197300,train
+S0260,trip_management,abandoned,Seoul,Delhi,medium,3,indian_english,telephony_8k,1,0,1,4,5,357800,train
+S0261,build_itinerary,abandoned,Seoul,Delhi,long,7,australian_english,car,0,0,0,1,7,182950,train
+S0262,modify_refine,cancelled,Bali,Mumbai,short,4,indian_english,street,0,0,0,3,5,162750,train
+S0263,modify_refine,booked,Phuket,Hyderabad,medium,5,us_english,telephony_8k,0,0,0,1,3,53500,train
+S0264,search_book_flight,changed_mind,Paris,Hyderabad,long,6,uk_english,clean,0,0,0,3,6,350850,train
+S0265,search_book_flight,tool_error,Goa,Delhi,medium,6,singapore_english,cafe,0,1,1,1,3,16450,val
+S0266,search_book_hotel,cancelled,Kuala Lumpur,Chennai,long,7,singapore_english,telephony_8k,1,0,0,2,3,60200,train
+S0267,build_itinerary,booked,Dubai,Chennai,short,4,us_english,car,1,1,1,2,3,74250,train
+S0268,modify_refine,tool_error,Hong Kong,Chennai,long,7,australian_english,clean,1,0,0,2,3,119650,train
+S0269,search_book_flight,booked,Sydney,Delhi,short,2,uk_english,street,0,0,1,1,7,166350,train
+S0270,trip_management,tool_error,Rome,Bangalore,medium,4,indian_english,cafe,1,0,1,4,3,301900,train
+S0271,search_book_hotel,abandoned,Amsterdam,Delhi,medium,4,indian_english,car,1,1,0,2,3,197800,val
+S0272,build_itinerary,tool_error,Tokyo,Mumbai,long,7,us_english,telephony_8k,0,0,1,1,3,114050,val
+S0273,build_itinerary,booked,New York,Chennai,short,3,singapore_english,cafe,1,0,0,3,6,537500,val
+S0274,search_book_flight,cancelled,Istanbul,Mumbai,long,6,australian_english,clean,0,0,0,1,7,98850,test
+S0275,trip_management,changed_mind,Bangkok,Bangalore,short,3,uk_english,street,0,0,0,4,6,129200,train
+S0276,modify_refine,booked,Singapore,Delhi,medium,4,indian_english,street,1,0,0,2,7,149450,train
+S0277,trip_management,cancelled,Barcelona,Delhi,long,4,uk_english,cafe,0,0,0,3,3,230150,train
+S0278,plan_trip,tool_error,London,Chennai,medium,8,singapore_english,clean,1,1,0,2,3,163800,train
+S0279,search_book_flight,tool_error,Zurich,Mumbai,short,3,australian_english,telephony_8k,1,0,0,1,4,118750,train
+S0280,modify_refine,cancelled,Maldives,Hyderabad,short,4,us_english,car,0,0,0,2,7,141150,val
+S0281,build_itinerary,cancelled,Zurich,Bangalore,long,9,singapore_english,telephony_8k,0,1,0,2,7,198700,train
+S0282,plan_trip,cancelled,Goa,Bangalore,medium,6,us_english,car,0,0,0,2,5,91650,train
+S0283,search_book_flight,booked,Paris,Mumbai,medium,3,australian_english,clean,1,0,0,1,3,114200,val
+S0284,build_itinerary,abandoned,Kuala Lumpur,Delhi,long,6,uk_english,cafe,0,0,0,1,5,57450,train
+S0285,search_book_flight,changed_mind,Dubai,Mumbai,short,3,indian_english,street,0,0,1,3,4,144450,train
+S0286,modify_refine,tool_error,London,Chennai,short,5,singapore_english,clean,0,1,0,3,5,277050,train
+S0287,plan_trip,booked,New York,Chennai,long,7,us_english,telephony_8k,0,0,1,1,5,196000,val
+S0288,search_book_hotel,changed_mind,Rome,Mumbai,medium,4,australian_english,street,0,0,0,1,4,138900,train
+S0289,modify_refine,abandoned,Hong Kong,Hyderabad,medium,5,indian_english,car,0,0,1,1,7,111900,train
+S0290,trip_management,tool_error,Bali,Chennai,long,6,uk_english,cafe,0,0,0,1,6,90500,train
+S0291,plan_trip,abandoned,Seoul,Chennai,short,4,australian_english,car,1,0,1,1,4,94750,train
+S0292,trip_management,booked,Phuket,Bangalore,long,5,singapore_english,telephony_8k,0,1,0,3,7,192450,train
+S0293,search_book_hotel,cancelled,Tokyo,Bangalore,short,3,indian_english,street,1,0,1,4,4,272450,train
+S0294,build_itinerary,changed_mind,Singapore,Chennai,medium,7,us_english,clean,0,1,0,1,4,59400,train
+S0295,search_book_hotel,booked,Amsterdam,Delhi,short,2,uk_english,cafe,0,0,0,2,4,186600,train
+S0296,trip_management,abandoned,Maldives,Chennai,medium,3,us_english,telephony_8k,1,0,0,2,4,193750,train
+S0297,search_book_hotel,tool_error,Sydney,Bangalore,long,7,uk_english,car,0,0,0,2,5,266000,train
+S0298,plan_trip,changed_mind,Istanbul,Mumbai,long,10,indian_english,clean,1,1,0,1,4,86850,train
+S0299,search_book_flight,abandoned,Barcelona,Delhi,medium,3,australian_english,cafe,1,0,0,3,5,233300,train
+S0300,modify_refine,changed_mind,Bangkok,Bangalore,short,4,singapore_english,street,0,0,0,2,3,63850,train
+S0301,search_book_flight,tool_error,Singapore,Mumbai,medium,5,singapore_english,telephony_8k,1,0,1,3,5,206100,train
+S0302,modify_refine,changed_mind,Maldives,Mumbai,short,5,australian_english,cafe,0,1,0,3,6,330650,train
+S0303,search_book_hotel,tool_error,Phuket,Hyderabad,long,6,uk_english,clean,0,0,0,1,6,61600,train
+S0304,build_itinerary,abandoned,Barcelona,Hyderabad,long,6,us_english,street,0,0,1,1,4,110100,train
+S0305,trip_management,abandoned,Istanbul,Hyderabad,short,2,indian_english,car,1,0,0,4,4,262450,train
+S0306,search_book_flight,cancelled,Bali,Mumbai,medium,4,us_english,street,0,0,0,2,6,107100,train
+S0307,plan_trip,tool_error,Seoul,Mumbai,long,8,indian_english,car,0,0,0,4,7,270950,train
+S0308,modify_refine,booked,New York,Delhi,short,4,singapore_english,telephony_8k,0,1,0,2,5,260050,test
+S0309,build_itinerary,booked,Tokyo,Mumbai,medium,5,australian_english,cafe,1,0,0,4,4,308550,train
+S0310,search_book_hotel,abandoned,Sydney,Chennai,short,2,uk_english,clean,1,0,0,2,3,200550,test
+S0311,search_book_flight,changed_mind,Dubai,Chennai,long,8,indian_english,telephony_8k,0,1,1,2,3,113800,train
+S0312,plan_trip,changed_mind,London,Chennai,medium,7,australian_english,car,1,0,1,2,5,205950,train
+S0313,search_book_flight,abandoned,Kuala Lumpur,Hyderabad,short,3,uk_english,clean,0,1,0,2,7,68700,train
+S0314,trip_management,tool_error,Hong Kong,Chennai,medium,4,us_english,cafe,1,1,0,1,6,183300,train
+S0315,plan_trip,abandoned,Zurich,Bangalore,long,8,singapore_english,street,0,0,0,1,7,327050,train
+S0316,build_itinerary,tool_error,Amsterdam,Bangalore,short,4,australian_english,clean,0,0,0,2,3,202450,train
+S0317,modify_refine,cancelled,Paris,Hyderabad,medium,6,indian_english,street,1,0,0,1,5,176100,train
+S0318,plan_trip,booked,Goa,Mumbai,long,7,us_english,telephony_8k,1,0,0,1,5,26150,train
+S0319,build_itinerary,changed_mind,Bangkok,Mumbai,long,8,singapore_english,cafe,1,0,1,2,3,100950,train
+S0320,build_itinerary,cancelled,Rome,Hyderabad,short,5,uk_english,car,0,1,0,4,4,395650,train
+S0321,plan_trip,cancelled,London,Chennai,medium,6,indian_english,cafe,0,0,0,2,5,214050,train
+S0322,search_book_hotel,cancelled,Dubai,Delhi,long,7,australian_english,clean,1,0,0,1,3,89350,train
+S0323,search_book_flight,booked,Maldives,Delhi,short,3,uk_english,car,1,1,0,1,3,53250,train
+S0324,modify_refine,tool_error,Barcelona,Delhi,medium,5,us_english,telephony_8k,1,0,0,2,5,166300,train
+S0325,trip_management,cancelled,Istanbul,Chennai,long,5,singapore_english,street,0,0,0,3,7,184700,test
+S0326,trip_management,booked,Kuala Lumpur,Mumbai,short,2,indian_english,cafe,0,1,0,2,5,68150,train
+S0327,trip_management,changed_mind,Phuket,Chennai,medium,5,us_english,clean,0,1,1,4,7,207800,test
+S0328,modify_refine,abandoned,Bangkok,Bangalore,short,3,singapore_english,car,1,0,0,2,4,100350,train
+S0329,search_book_hotel,booked,Rome,Hyderabad,medium,3,uk_english,telephony_8k,0,0,1,1,5,138350,train
+S0330,search_book_hotel,changed_mind,Paris,Bangalore,long,7,australian_english,street,0,0,0,4,5,385650,train
+S0331,search_book_flight,booked,Sydney,Mumbai,short,2,singapore_english,car,1,0,0,4,4,446550,test
+S0332,plan_trip,cancelled,Hong Kong,Delhi,medium,7,uk_english,street,1,0,0,2,7,151900,train
+S0333,build_itinerary,abandoned,Bali,Hyderabad,long,6,australian_english,cafe,0,0,0,4,5,209300,train
+S0334,modify_refine,tool_error,New York,Hyderabad,long,7,indian_english,telephony_8k,0,0,0,2,4,235200,train
+S0335,search_book_flight,cancelled,Singapore,Bangalore,medium,4,us_english,clean,0,0,0,2,7,170850,train
+S0336,search_book_flight,abandoned,Zurich,Mumbai,short,2,us_english,clean,1,0,0,1,3,107850,train
+S0337,build_itinerary,tool_error,Seoul,Chennai,medium,5,indian_english,telephony_8k,0,0,0,3,7,327700,train
+S0338,modify_refine,abandoned,Tokyo,Mumbai,long,6,uk_english,street,0,0,1,1,7,140850,train
+S0339,build_itinerary,cancelled,Goa,Hyderabad,short,5,singapore_english,car,0,1,1,1,7,111350,train
+S0340,trip_management,booked,Amsterdam,Bangalore,short,2,australian_english,cafe,0,0,0,3,5,286500,train
+S0341,plan_trip,tool_error,Goa,Hyderabad,long,8,indian_english,car,1,0,0,1,5,73350,train
+S0342,search_book_hotel,cancelled,Dubai,Mumbai,medium,4,us_english,telephony_8k,0,0,0,2,3,106600,test
+S0343,modify_refine,booked,Istanbul,Hyderabad,medium,5,australian_english,cafe,0,0,0,1,5,144250,train
+S0344,search_book_hotel,booked,Paris,Delhi,short,2,singapore_english,street,0,0,0,2,7,310400,train
+S0345,trip_management,changed_mind,Singapore,Hyderabad,long,6,uk_english,clean,0,1,0,3,7,265150,val
+S0346,modify_refine,changed_mind,Barcelona,Mumbai,short,4,indian_english,street,0,0,0,1,5,97700,test
+S0347,search_book_flight,changed_mind,Maldives,Bangalore,long,8,singapore_english,clean,1,1,0,4,4,207900,train
+S0348,search_book_hotel,abandoned,Zurich,Mumbai,medium,4,australian_english,car,0,0,0,1,4,131050,train
+S0349,plan_trip,abandoned,Kuala Lumpur,Bangalore,short,4,uk_english,telephony_8k,1,0,0,1,3,55550,val
+S0350,build_itinerary,changed_mind,Bali,Chennai,medium,6,us_english,cafe,0,1,0,2,7,125300,train
+S0351,plan_trip,booked,Sydney,Hyderabad,long,7,singapore_english,clean,0,0,0,2,7,290850,train
+S0352,build_itinerary,booked,London,Bangalore,long,6,uk_english,telephony_8k,0,0,0,2,4,182300,test
+S0353,plan_trip,changed_mind,Hong Kong,Hyderabad,medium,6,australian_english,cafe,1,0,0,4,6,301450,train
+S0354,trip_management,abandoned,Amsterdam,Delhi,short,2,indian_english,street,0,0,0,1,3,136000,train
+S0355,search_book_hotel,tool_error,Rome,Bangalore,medium,4,us_english,car,0,0,0,2,4,165900,train
+S0356,trip_management,cancelled,Bangkok,Delhi,long,5,indian_english,car,1,0,0,1,5,54350,train
+S0357,search_book_flight,tool_error,Tokyo,Chennai,short,3,singapore_english,street,0,0,0,3,6,231800,train
+S0358,search_book_hotel,changed_mind,Seoul,Bangalore,medium,5,uk_english,clean,1,0,0,2,7,180850,train
+S0359,trip_management,tool_error,New York,Delhi,short,3,us_english,cafe,0,0,0,3,6,347000,train
+S0360,modify_refine,cancelled,Phuket,Mumbai,long,7,australian_english,telephony_8k,0,0,0,2,4,78300,train
+S0361,trip_management,changed_mind,Hong Kong,Hyderabad,medium,3,singapore_english,clean,0,0,0,4,5,217650,train
+S0362,search_book_hotel,booked,Paris,Hyderabad,short,3,us_english,cafe,0,1,1,4,5,319200,val
+S0363,plan_trip,changed_mind,Istanbul,Delhi,long,10,australian_english,street,0,1,0,2,7,131150,train
+S0364,build_itinerary,changed_mind,Tokyo,Mumbai,short,4,uk_english,car,0,0,1,1,4,102450,train
+S0365,search_book_flight,changed_mind,Singapore,Bangalore,long,7,indian_english,telephony_8k,0,0,0,1,6,73850,train
+S0366,modify_refine,booked,Bangkok,Chennai,medium,4,australian_english,cafe,1,0,0,3,3,99000,train
+S0367,trip_management,cancelled,Seoul,Delhi,medium,4,singapore_english,street,0,1,0,1,3,86400,test
+S0368,plan_trip,cancelled,Zurich,Hyderabad,short,6,us_english,car,0,1,0,2,3,192050,test
+S0369,search_book_hotel,tool_error,Barcelona,Delhi,long,7,uk_english,telephony_8k,0,0,0,4,4,333800,test
+S0370,build_itinerary,booked,Phuket,Hyderabad,medium,6,indian_english,clean,0,1,0,1,6,52400,train
+S0371,build_itinerary,abandoned,London,Hyderabad,long,7,singapore_english,street,1,0,0,3,7,361850,train
+S0372,plan_trip,abandoned,Bali,Hyderabad,short,4,indian_english,car,0,0,0,2,6,114250,train
+S0373,build_itinerary,tool_error,Sydney,Mumbai,long,8,australian_english,clean,1,0,0,2,6,181250,val
+S0374,trip_management,booked,Goa,Delhi,medium,4,uk_english,cafe,1,0,0,3,6,95700,train
+S0375,search_book_flight,abandoned,Dubai,Chennai,short,2,us_english,telephony_8k,1,0,0,3,4,118300,train
+S0376,search_book_hotel,changed_mind,Amsterdam,Bangalore,medium,5,australian_english,cafe,0,0,0,3,5,277350,train
+S0377,trip_management,tool_error,New York,Bangalore,long,6,uk_english,street,1,0,0,4,5,513750,train
+S0378,plan_trip,booked,Kuala Lumpur,Delhi,short,4,singapore_english,clean,0,0,0,2,3,77800,val
+S0379,modify_refine,abandoned,Maldives,Mumbai,medium,4,us_english,car,1,0,0,4,4,174300,train
+S0380,search_book_flight,cancelled,Rome,Bangalore,short,4,indian_english,telephony_8k,0,1,0,1,7,220450,train
+S0381,trip_management,abandoned,Phuket,Chennai,long,4,singapore_english,street,0,0,0,2,6,74800,train
+S0382,plan_trip,tool_error,Sydney,Mumbai,medium,6,uk_english,cafe,0,0,0,1,7,122800,train
+S0383,modify_refine,tool_error,Kuala Lumpur,Delhi,short,5,us_english,clean,1,1,1,2,6,87050,train
+S0384,build_itinerary,cancelled,Goa,Bangalore,long,7,indian_english,car,0,0,0,4,4,46900,train
+S0385,search_book_flight,booked,Amsterdam,Chennai,long,6,australian_english,telephony_8k,0,0,0,2,5,188500,train
+S0386,search_book_hotel,abandoned,Bali,Delhi,medium,4,singapore_english,street,1,1,0,1,5,51550,train
+S0387,modify_refine,cancelled,Hong Kong,Mumbai,short,5,indian_english,cafe,0,1,1,2,7,120250,val
+S0388,search_book_flight,tool_error,Barcelona,Hyderabad,short,3,uk_english,telephony_8k,1,0,0,3,6,237200,train
+S0389,modify_refine,changed_mind,Bangkok,Delhi,long,7,us_english,car,0,0,0,2,5,89500,train
+S0390,search_book_hotel,cancelled,Tokyo,Bangalore,medium,4,australian_english,clean,0,0,0,3,5,247600,train
+S0391,modify_refine,changed_mind,New York,Chennai,short,5,singapore_english,telephony_8k,1,1,0,2,6,286500,test
+S0392,search_book_flight,tool_error,Dubai,Hyderabad,medium,5,australian_english,cafe,0,1,0,1,7,58750,train
+S0393,plan_trip,abandoned,Rome,Bangalore,long,8,us_english,street,0,0,1,3,3,200000,val
+S0394,search_book_flight,booked,Maldives,Mumbai,short,2,uk_english,clean,0,0,0,3,5,129200,train
+S0395,trip_management,tool_error,Seoul,Mumbai,medium,4,indian_english,car,1,0,0,4,3,240650,train
+S0396,search_book_flight,cancelled,Singapore,Delhi,long,7,uk_english,car,0,0,0,4,4,193700,train
+S0397,search_book_hotel,changed_mind,Paris,Bangalore,long,7,indian_english,telephony_8k,0,1,0,3,6,291750,val
+S0398,plan_trip,cancelled,London,Chennai,medium,7,us_english,cafe,0,0,0,1,6,150300,test
+S0399,search_book_hotel,cancelled,Istanbul,Bangalore,short,3,australian_english,clean,1,0,1,1,5,67950,train
+S0400,search_book_flight,abandoned,Zurich,Mumbai,long,6,singapore_english,street,0,0,0,1,7,136100,train
+S0401,modify_refine,cancelled,Bali,Mumbai,medium,5,singapore_english,car,1,0,1,2,7,144800,train
+S0402,build_itinerary,tool_error,Sydney,Mumbai,short,4,indian_english,telephony_8k,0,0,0,2,7,287850,train
+S0403,search_book_flight,changed_mind,Phuket,Hyderabad,short,4,australian_english,street,0,1,0,2,7,112300,train
+S0404,modify_refine,tool_error,Paris,Hyderabad,long,8,uk_english,cafe,0,0,0,1,6,160550,test
+S0405,trip_management,abandoned,New York,Mumbai,medium,3,us_english,clean,1,1,0,2,3,271000,train
+S0406,trip_management,booked,Barcelona,Bangalore,long,5,indian_english,street,0,0,0,2,4,172150,train
+S0407,build_itinerary,cancelled,Dubai,Bangalore,short,4,us_english,telephony_8k,0,0,0,1,6,67200,train
+S0408,plan_trip,tool_error,Hong Kong,Hyderabad,medium,7,uk_english,cafe,0,1,0,1,4,74650,train
+S0409,build_itinerary,booked,Singapore,Chennai,long,7,singapore_english,car,0,1,0,3,5,182000,train
+S0410,trip_management,changed_mind,Tokyo,Hyderabad,short,3,australian_english,clean,0,1,0,2,6,179000,train
+S0411,plan_trip,booked,Maldives,Hyderabad,medium,5,uk_english,street,0,0,0,1,4,100450,train
+S0412,search_book_hotel,booked,Rome,Delhi,short,3,australian_english,cafe,0,1,0,2,5,185450,train
+S0413,modify_refine,booked,London,Mumbai,long,6,indian_english,car,0,0,1,3,3,263200,train
+S0414,build_itinerary,abandoned,Bangkok,Bangalore,medium,5,singapore_english,clean,1,1,0,4,6,140300,train
+S0415,plan_trip,changed_mind,Goa,Hyderabad,long,9,us_english,telephony_8k,1,0,1,1,3,30350,train
+S0416,trip_management,cancelled,Istanbul,Hyderabad,short,2,us_english,car,0,0,0,1,6,97900,train
+S0417,modify_refine,abandoned,Zurich,Delhi,medium,5,uk_english,telephony_8k,1,0,1,1,7,327850,train
+S0418,search_book_hotel,tool_error,Amsterdam,Bangalore,long,7,australian_english,cafe,0,0,0,1,5,118250,train
+S0419,build_itinerary,changed_mind,Kuala Lumpur,Hyderabad,medium,5,indian_english,street,1,0,1,3,6,111400,train
+S0420,search_book_hotel,abandoned,Seoul,Bangalore,short,2,singapore_english,clean,0,0,0,3,7,205000,train
+S0421,plan_trip,abandoned,Zurich,Hyderabad,long,9,singapore_english,clean,0,1,0,1,6,246600,test
+S0422,build_itinerary,changed_mind,New York,Delhi,short,5,australian_english,street,1,1,0,3,6,402500,test
+S0423,search_book_hotel,abandoned,Amsterdam,Chennai,medium,4,indian_english,telephony_8k,0,0,1,4,3,332000,train
+S0424,build_itinerary,abandoned,Barcelona,Mumbai,medium,4,us_english,car,0,0,0,1,5,108800,train
+S0425,search_book_flight,abandoned,Singapore,Chennai,short,2,uk_english,cafe,1,0,0,3,7,233900,train
+S0426,modify_refine,cancelled,Phuket,Hyderabad,long,8,indian_english,street,1,0,0,2,3,109300,val
+S0427,modify_refine,booked,Seoul,Bangalore,short,4,singapore_english,clean,0,1,0,3,6,220150,train
+S0428,search_book_flight,cancelled,Goa,Delhi,medium,5,australian_english,cafe,0,0,1,2,4,37550,test
+S0429,plan_trip,cancelled,Bali,Hyderabad,long,8,uk_english,telephony_8k,0,0,1,2,7,127700,train
+S0430,modify_refine,abandoned,London,Chennai,long,6,us_english,car,0,0,0,1,6,146250,train
+S0431,plan_trip,tool_error,Hong Kong,Chennai,short,5,australian_english,clean,1,0,0,2,7,179300,train
+S0432,modify_refine,changed_mind,Kuala Lumpur,Hyderabad,medium,5,us_english,car,0,0,1,1,4,38050,train
+S0433,trip_management,booked,Sydney,Bangalore,long,5,singapore_english,street,1,0,0,4,7,393050,train
+S0434,search_book_flight,booked,Tokyo,Mumbai,short,3,uk_english,cafe,0,1,0,3,3,223950,train
+S0435,search_book_hotel,tool_error,Rome,Hyderabad,medium,5,indian_english,telephony_8k,0,0,0,1,6,103150,train
+S0436,build_itinerary,booked,Paris,Delhi,short,3,singapore_english,telephony_8k,0,0,0,3,7,405700,train
+S0437,plan_trip,booked,Istanbul,Delhi,long,8,indian_english,car,0,1,0,2,7,120050,train
+S0438,trip_management,cancelled,Dubai,Bangalore,medium,3,australian_english,street,1,1,0,2,5,146650,train
+S0439,search_book_hotel,changed_mind,Maldives,Chennai,medium,4,uk_english,cafe,0,0,0,4,4,153950,train
+S0440,build_itinerary,cancelled,Bangkok,Chennai,short,4,us_english,clean,0,0,0,1,5,42000,train
+S0441,build_itinerary,tool_error,Tokyo,Chennai,long,7,australian_english,car,0,0,0,1,6,187450,val
+S0442,modify_refine,tool_error,Kuala Lumpur,Chennai,long,7,indian_english,clean,0,0,0,1,5,92550,train
+S0443,trip_management,tool_error,Paris,Mumbai,medium,4,uk_english,street,0,0,1,3,3,221450,val
+S0444,search_book_hotel,cancelled,Istanbul,Delhi,short,3,us_english,cafe,0,0,1,1,4,72000,train
+S0445,search_book_flight,tool_error,Maldives,Mumbai,long,6,singapore_english,telephony_8k,0,0,0,2,6,259200,train
+S0446,plan_trip,changed_mind,Goa,Delhi,medium,7,singapore_english,car,1,1,0,1,5,44750,train
+S0447,trip_management,abandoned,Barcelona,Delhi,short,2,indian_english,street,1,1,0,2,6,181400,train
+S0448,search_book_flight,changed_mind,Hong Kong,Mumbai,medium,5,australian_english,cafe,0,0,0,4,4,225050,train
+S0449,trip_management,changed_mind,London,Bangalore,short,3,uk_english,telephony_8k,1,0,0,1,3,94850,train
+S0450,search_book_hotel,booked,Amsterdam,Delhi,long,5,us_english,clean,0,0,0,1,5,181050,train
+S0451,modify_refine,cancelled,Dubai,Mumbai,medium,5,uk_english,clean,0,0,0,4,5,147100,train
+S0452,plan_trip,abandoned,Seoul,Chennai,short,4,us_english,cafe,0,0,0,1,3,75300,train
+S0453,search_book_flight,tool_error,Singapore,Mumbai,long,7,australian_english,street,0,0,0,4,7,200150,train
+S0454,search_book_hotel,changed_mind,Bali,Delhi,medium,5,singapore_english,car,0,1,0,3,5,165200,train
+S0455,build_itinerary,abandoned,Sydney,Chennai,long,7,indian_english,telephony_8k,0,0,0,2,4,203500,train
+S0456,trip_management,abandoned,New York,Hyderabad,short,2,singapore_english,clean,0,0,1,3,3,356400,train
+S0457,search_book_hotel,booked,Phuket,Hyderabad,short,2,indian_english,street,0,0,0,1,5,91850,train
+S0458,trip_management,changed_mind,Bangkok,Chennai,medium,3,uk_english,car,0,1,0,2,3,71350,train
+S0459,search_book_flight,booked,Rome,Bangalore,long,6,australian_english,telephony_8k,1,0,1,3,6,248500,val
+S0460,build_itinerary,cancelled,Zurich,Delhi,long,7,us_english,cafe,1,0,0,4,5,453950,train
+S0461,plan_trip,cancelled,Bangkok,Delhi,short,5,indian_english,telephony_8k,0,0,0,2,3,68950,test
+S0462,build_itinerary,tool_error,Istanbul,Bangalore,medium,6,us_english,car,1,0,0,2,4,164950,train
+S0463,search_book_hotel,abandoned,Zurich,Mumbai,short,3,singapore_english,clean,1,1,0,2,5,303850,test
+S0464,search_book_flight,abandoned,Phuket,Chennai,long,7,uk_english,street,1,1,0,4,4,152150,test
+S0465,plan_trip,tool_error,Maldives,Hyderabad,medium,7,australian_english,cafe,1,1,0,4,6,305000,train
+S0466,search_book_flight,cancelled,Paris,Mumbai,short,4,indian_english,cafe,1,1,0,1,3,100650,val
+S0467,trip_management,cancelled,Barcelona,Bangalore,long,5,singapore_english,telephony_8k,0,0,0,4,4,335250,train
+S0468,plan_trip,booked,Tokyo,Bangalore,medium,6,uk_english,street,0,0,0,4,6,374350,train
+S0469,search_book_hotel,cancelled,Dubai,Chennai,short,3,us_english,car,1,0,0,2,4,93050,train
+S0470,modify_refine,abandoned,Amsterdam,Mumbai,long,8,australian_english,clean,0,1,0,1,7,228850,train
+S0471,modify_refine,booked,Bali,Chennai,medium,5,us_english,car,1,1,1,2,5,169200,train
+S0472,trip_management,booked,New York,Chennai,medium,3,singapore_english,street,1,0,0,3,7,432200,train
+S0473,modify_refine,changed_mind,Rome,Bangalore,short,5,indian_english,clean,0,1,0,1,3,114350,train
+S0474,trip_management,tool_error,Singapore,Chennai,long,5,australian_english,telephony_8k,0,0,0,2,6,215750,test
+S0475,build_itinerary,changed_mind,Sydney,Delhi,short,4,uk_english,cafe,0,0,0,2,5,336750,train
+S0476,build_itinerary,booked,Hong Kong,Chennai,medium,4,indian_english,street,0,0,0,2,7,172150,train
+S0477,search_book_hotel,tool_error,London,Bangalore,long,7,uk_english,car,0,0,0,2,7,172500,train
+S0478,modify_refine,tool_error,Goa,Mumbai,long,8,singapore_english,cafe,0,0,1,4,3,41750,train
+S0479,search_book_flight,changed_mind,Seoul,Delhi,medium,5,australian_english,clean,0,0,0,3,7,225050,train
+S0480,plan_trip,changed_mind,Kuala Lumpur,Mumbai,short,5,us_english,telephony_8k,0,0,0,4,3,99600,train
+S0481,plan_trip,booked,New York,Bangalore,long,7,uk_english,car,0,0,0,3,5,312350,test
+S0482,modify_refine,changed_mind,Hong Kong,Mumbai,medium,5,indian_english,street,0,0,0,2,3,131350,train
+S0483,modify_refine,abandoned,Tokyo,Delhi,short,3,singapore_english,telephony_8k,0,0,0,3,3,190450,train
+S0484,search_book_flight,abandoned,Phuket,Chennai,short,2,us_english,clean,0,0,0,1,4,82350,train
+S0485,plan_trip,tool_error,Sydney,Delhi,long,9,australian_english,cafe,0,0,0,4,6,435500,train
+S0486,plan_trip,abandoned,Bangkok,Mumbai,medium,5,indian_english,car,0,0,0,2,4,78250,val
+S0487,modify_refine,cancelled,Bali,Bangalore,medium,6,us_english,street,1,0,0,4,4,208650,val
+S0488,search_book_hotel,booked,Istanbul,Chennai,short,3,australian_english,clean,1,1,0,4,5,237300,train
+S0489,build_itinerary,tool_error,Dubai,Bangalore,long,8,singapore_english,telephony_8k,0,1,0,2,3,74800,val
+S0490,search_book_flight,tool_error,Goa,Delhi,long,7,uk_english,cafe,1,0,0,2,4,60950,train
+S0491,trip_management,abandoned,Barcelona,Bangalore,short,2,uk_english,car,0,0,1,1,3,94750,train
+S0492,plan_trip,cancelled,Rome,Hyderabad,medium,7,indian_english,cafe,0,1,0,3,6,243350,train
+S0493,search_book_flight,cancelled,Amsterdam,Bangalore,medium,5,singapore_english,clean,0,0,0,2,6,211400,train
+S0494,search_book_flight,booked,Paris,Hyderabad,short,2,us_english,street,1,0,1,1,6,98750,train
+S0495,build_itinerary,booked,London,Mumbai,long,7,australian_english,telephony_8k,0,1,1,1,5,151400,train
+S0496,trip_management,cancelled,Maldives,Chennai,short,2,singapore_english,car,0,0,0,3,6,181650,train
+S0497,build_itinerary,changed_mind,Singapore,Mumbai,long,8,indian_english,cafe,0,0,0,2,4,100350,train
+S0498,search_book_hotel,changed_mind,Zurich,Delhi,medium,5,australian_english,clean,1,0,0,2,7,312700,val
+S0499,search_book_hotel,tool_error,Seoul,Mumbai,short,4,us_english,street,1,1,0,3,3,159300,val
+S0500,trip_management,changed_mind,Kuala Lumpur,Bangalore,medium,4,uk_english,telephony_8k,1,0,0,1,3,42950,train

@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "n_conversations": 500,
+  "n_users": 120,
+  "generated_for": "Voice Travel Agent LLD",
+  "tables": {
+    "sessions": 500,
+    "conversations": 2506,
+    "trips": 500,
+    "bookings": 333,
+    "itineraries": 529,
+    "agent_tasks": 3156,
+    "audio_logs": 5012,
+    "audit_logs": 4623,
+    "scenarios": 500
+  },
+  "currency": "INR",
+  "note": "Fully synthetic. Audio files are planned (metadata only); synthesize with Piper TTS + noise."
+}

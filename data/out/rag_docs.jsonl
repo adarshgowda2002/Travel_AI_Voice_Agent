@@ -1,0 +1,26 @@
+{"doc_id": "KB-001", "type": "policy", "topic": "baggage", "text": "Economy fares include 15 kg check-in and 7 kg cabin baggage on most carriers; extra kilos can be added at booking."}
+{"doc_id": "KB-002", "type": "policy", "topic": "cancellation", "text": "Bookings can be cancelled free of charge within 24 hours of purchase; after that the airline or hotel cancellation policy applies."}
+{"doc_id": "KB-003", "type": "policy", "topic": "refund", "text": "Eligible refunds are returned to the original payment method within 5 to 7 working days."}
+{"doc_id": "KB-004", "type": "policy", "topic": "change_fee", "text": "Date changes carry a fixed change fee of Rs 2,500 plus any fare difference, subject to availability."}
+{"doc_id": "KB-005", "type": "policy", "topic": "payment", "text": "Payments are processed securely through Stripe or Razorpay; card details are never stored by the voice agent."}
+{"doc_id": "KB-006", "type": "policy", "topic": "documents", "text": "Carry a passport valid for at least six months and check visa requirements for your destination before travel."}
+{"doc_id": "KB-007", "type": "destination", "topic": "Dubai", "text": "Dubai, UAE (DXB): best visited November to March. Top experiences include Burj Khalifa, Desert Safari and Dubai Mall."}
+{"doc_id": "KB-008", "type": "destination", "topic": "Singapore", "text": "Singapore, Singapore (SIN): best visited April to June. Top experiences include Gardens by the Bay, Sentosa Island and Night Safari."}
+{"doc_id": "KB-009", "type": "destination", "topic": "Bangkok", "text": "Bangkok, Thailand (BKK): best visited October to December. Top experiences include Grand Palace, Chatuchak Market and Chao Phraya Cruise."}
+{"doc_id": "KB-010", "type": "destination", "topic": "Paris", "text": "Paris, France (CDG): best visited March to May. Top experiences include Eiffel Tower, Louvre Museum and Seine Cruise."}
+{"doc_id": "KB-011", "type": "destination", "topic": "London", "text": "London, UK (LHR): best visited November to March. Top experiences include Tower of London, British Museum and Thames Walk."}
+{"doc_id": "KB-012", "type": "destination", "topic": "Tokyo", "text": "Tokyo, Japan (NRT): best visited April to June. Top experiences include Senso-ji Temple, Shibuya Crossing and Tsukiji Food Tour."}
+{"doc_id": "KB-013", "type": "destination", "topic": "Bali", "text": "Bali, Indonesia (DPS): best visited October to December. Top experiences include Ubud Rice Terraces, Uluwatu Temple and Nusa Penida Trip."}
+{"doc_id": "KB-014", "type": "destination", "topic": "Rome", "text": "Rome, Italy (FCO): best visited March to May. Top experiences include Colosseum, Vatican Museums and Trevi Fountain."}
+{"doc_id": "KB-015", "type": "destination", "topic": "Istanbul", "text": "Istanbul, Turkey (IST): best visited November to March. Top experiences include Hagia Sophia, Grand Bazaar and Bosphorus Cruise."}
+{"doc_id": "KB-016", "type": "destination", "topic": "New York", "text": "New York, USA (JFK): best visited April to June. Top experiences include Statue of Liberty, Central Park and Broadway Show."}
+{"doc_id": "KB-017", "type": "destination", "topic": "Sydney", "text": "Sydney, Australia (SYD): best visited October to December. Top experiences include Opera House, Bondi Beach and Harbour Bridge Climb."}
+{"doc_id": "KB-018", "type": "destination", "topic": "Kuala Lumpur", "text": "Kuala Lumpur, Malaysia (KUL): best visited March to May. Top experiences include Petronas Towers, Batu Caves and Bukit Bintang Food Walk."}
+{"doc_id": "KB-019", "type": "destination", "topic": "Maldives", "text": "Maldives, Maldives (MLE): best visited November to March. Top experiences include Snorkelling Tour, Sandbank Picnic and Dolphin Cruise."}
+{"doc_id": "KB-020", "type": "destination", "topic": "Goa", "text": "Goa, India (GOI): best visited April to June. Top experiences include Baga Beach, Old Goa Churches and Dudhsagar Falls."}
+{"doc_id": "KB-021", "type": "destination", "topic": "Phuket", "text": "Phuket, Thailand (HKT): best visited October to December. Top experiences include Phi Phi Islands, Big Buddha and Old Town Walk."}
+{"doc_id": "KB-022", "type": "destination", "topic": "Barcelona", "text": "Barcelona, Spain (BCN): best visited March to May. Top experiences include Sagrada Familia, Park Guell and La Boqueria Food Tour."}
+{"doc_id": "KB-023", "type": "destination", "topic": "Amsterdam", "text": "Amsterdam, Netherlands (AMS): best visited November to March. Top experiences include Anne Frank House, Canal Cruise and Van Gogh Museum."}
+{"doc_id": "KB-024", "type": "destination", "topic": "Seoul", "text": "Seoul, South Korea (ICN): best visited April to June. Top experiences include Gyeongbokgung Palace, Myeongdong Street Food and N Seoul Tower."}
+{"doc_id": "KB-025", "type": "destination", "topic": "Hong Kong", "text": "Hong Kong, Hong Kong (HKG): best visited October to December. Top experiences include Victoria Peak, Star Ferry and Lantau Big Buddha."}
+{"doc_id": "KB-026", "type": "destination", "topic": "Zurich", "text": "Zurich, Switzerland (ZRH): best visited March to May. Top experiences include Lake Zurich Cruise, Old Town Walk and Uetliberg Hike."}

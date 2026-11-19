@@ -1,0 +1,530 @@
+id,trip_id,day_no,activities,notes
+IT00001,T0001,1,Victoria Peak,Synthetic plan for Hong Kong
+IT00002,T0001,2,Star Ferry,Synthetic plan for Hong Kong
+IT00003,T0001,3,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00004,T0001,4,Victoria Peak,Synthetic plan for Hong Kong
+IT00005,T0001,5,Star Ferry,Synthetic plan for Hong Kong
+IT00006,T0006,1,Opera House,Synthetic plan for Sydney
+IT00007,T0006,2,Bondi Beach,Synthetic plan for Sydney
+IT00008,T0006,3,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00009,T0006,4,Opera House,Synthetic plan for Sydney
+IT00010,T0006,5,Bondi Beach,Synthetic plan for Sydney
+IT00011,T0006,6,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00012,T0006,7,Opera House,Synthetic plan for Sydney
+IT00013,T0006,8,Bondi Beach,Synthetic plan for Sydney
+IT00014,T0007,1,Anne Frank House,Synthetic plan for Amsterdam
+IT00015,T0007,2,Canal Cruise,Synthetic plan for Amsterdam
+IT00016,T0007,3,Van Gogh Museum,Synthetic plan for Amsterdam
+IT00017,T0007,4,Anne Frank House,Synthetic plan for Amsterdam
+IT00018,T0007,5,Canal Cruise,Synthetic plan for Amsterdam
+IT00019,T0007,6,Van Gogh Museum,Synthetic plan for Amsterdam
+IT00020,T0007,7,Anne Frank House,Synthetic plan for Amsterdam
+IT00021,T0007,8,Canal Cruise,Synthetic plan for Amsterdam
+IT00022,T0024,1,Opera House,Synthetic plan for Sydney
+IT00023,T0024,2,Bondi Beach,Synthetic plan for Sydney
+IT00024,T0024,3,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00025,T0024,4,Opera House,Synthetic plan for Sydney
+IT00026,T0028,1,Hagia Sophia,Synthetic plan for Istanbul
+IT00027,T0028,2,Grand Bazaar,Synthetic plan for Istanbul
+IT00028,T0028,3,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00029,T0028,4,Hagia Sophia,Synthetic plan for Istanbul
+IT00030,T0028,5,Grand Bazaar,Synthetic plan for Istanbul
+IT00031,T0028,6,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00032,T0031,1,Tower of London,Synthetic plan for London
+IT00033,T0031,2,British Museum,Synthetic plan for London
+IT00034,T0031,3,Thames Walk,Synthetic plan for London
+IT00035,T0031,4,Tower of London,Synthetic plan for London
+IT00036,T0031,5,British Museum,Synthetic plan for London
+IT00037,T0031,6,Thames Walk,Synthetic plan for London
+IT00038,T0031,7,Tower of London,Synthetic plan for London
+IT00039,T0031,8,British Museum,Synthetic plan for London
+IT00040,T0047,1,Phi Phi Islands,Synthetic plan for Phuket
+IT00041,T0047,2,Big Buddha,Synthetic plan for Phuket
+IT00042,T0047,3,Old Town Walk,Synthetic plan for Phuket
+IT00043,T0047,4,Phi Phi Islands,Synthetic plan for Phuket
+IT00044,T0047,5,Big Buddha,Synthetic plan for Phuket
+IT00045,T0052,1,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00046,T0052,2,Old Town Walk,Synthetic plan for Zurich
+IT00047,T0052,3,Uetliberg Hike,Synthetic plan for Zurich
+IT00048,T0052,4,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00049,T0052,5,Old Town Walk,Synthetic plan for Zurich
+IT00050,T0057,1,Colosseum,Synthetic plan for Rome
+IT00051,T0057,2,Vatican Museums,Synthetic plan for Rome
+IT00052,T0057,3,Trevi Fountain,Synthetic plan for Rome
+IT00053,T0057,4,Colosseum,Synthetic plan for Rome
+IT00054,T0057,5,Vatican Museums,Synthetic plan for Rome
+IT00055,T0057,6,Trevi Fountain,Synthetic plan for Rome
+IT00056,T0060,1,Victoria Peak,Synthetic plan for Hong Kong
+IT00057,T0060,2,Star Ferry,Synthetic plan for Hong Kong
+IT00058,T0060,3,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00059,T0060,4,Victoria Peak,Synthetic plan for Hong Kong
+IT00060,T0060,5,Star Ferry,Synthetic plan for Hong Kong
+IT00061,T0060,6,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00062,T0065,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00063,T0065,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00064,T0065,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00065,T0065,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00066,T0065,5,Shibuya Crossing,Synthetic plan for Tokyo
+IT00067,T0075,1,Opera House,Synthetic plan for Sydney
+IT00068,T0075,2,Bondi Beach,Synthetic plan for Sydney
+IT00069,T0075,3,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00070,T0075,4,Opera House,Synthetic plan for Sydney
+IT00071,T0076,1,Hagia Sophia,Synthetic plan for Istanbul
+IT00072,T0076,2,Grand Bazaar,Synthetic plan for Istanbul
+IT00073,T0076,3,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00074,T0076,4,Hagia Sophia,Synthetic plan for Istanbul
+IT00075,T0076,5,Grand Bazaar,Synthetic plan for Istanbul
+IT00076,T0076,6,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00077,T0081,1,Hagia Sophia,Synthetic plan for Istanbul
+IT00078,T0081,2,Grand Bazaar,Synthetic plan for Istanbul
+IT00079,T0081,3,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00080,T0081,4,Hagia Sophia,Synthetic plan for Istanbul
+IT00081,T0081,5,Grand Bazaar,Synthetic plan for Istanbul
+IT00082,T0081,6,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00083,T0081,7,Hagia Sophia,Synthetic plan for Istanbul
+IT00084,T0081,8,Grand Bazaar,Synthetic plan for Istanbul
+IT00085,T0084,1,Sagrada Familia,Synthetic plan for Barcelona
+IT00086,T0084,2,Park Guell,Synthetic plan for Barcelona
+IT00087,T0084,3,La Boqueria Food Tour,Synthetic plan for Barcelona
+IT00088,T0084,4,Sagrada Familia,Synthetic plan for Barcelona
+IT00089,T0084,5,Park Guell,Synthetic plan for Barcelona
+IT00090,T0084,6,La Boqueria Food Tour,Synthetic plan for Barcelona
+IT00091,T0084,7,Sagrada Familia,Synthetic plan for Barcelona
+IT00092,T0084,8,Park Guell,Synthetic plan for Barcelona
+IT00093,T0091,1,Gyeongbokgung Palace,Synthetic plan for Seoul
+IT00094,T0091,2,Myeongdong Street Food,Synthetic plan for Seoul
+IT00095,T0091,3,N Seoul Tower,Synthetic plan for Seoul
+IT00096,T0091,4,Gyeongbokgung Palace,Synthetic plan for Seoul
+IT00097,T0091,5,Myeongdong Street Food,Synthetic plan for Seoul
+IT00098,T0091,6,N Seoul Tower,Synthetic plan for Seoul
+IT00099,T0091,7,Gyeongbokgung Palace,Synthetic plan for Seoul
+IT00100,T0091,8,Myeongdong Street Food,Synthetic plan for Seoul
+IT00101,T0103,1,Sagrada Familia,Synthetic plan for Barcelona
+IT00102,T0103,2,Park Guell,Synthetic plan for Barcelona
+IT00103,T0103,3,La Boqueria Food Tour,Synthetic plan for Barcelona
+IT00104,T0103,4,Sagrada Familia,Synthetic plan for Barcelona
+IT00105,T0103,5,Park Guell,Synthetic plan for Barcelona
+IT00106,T0103,6,La Boqueria Food Tour,Synthetic plan for Barcelona
+IT00107,T0106,1,Burj Khalifa,Synthetic plan for Dubai
+IT00108,T0106,2,Desert Safari,Synthetic plan for Dubai
+IT00109,T0106,3,Dubai Mall,Synthetic plan for Dubai
+IT00110,T0106,4,Burj Khalifa,Synthetic plan for Dubai
+IT00111,T0106,5,Desert Safari,Synthetic plan for Dubai
+IT00112,T0107,1,Eiffel Tower,Synthetic plan for Paris
+IT00113,T0107,2,Louvre Museum,Synthetic plan for Paris
+IT00114,T0107,3,Seine Cruise,Synthetic plan for Paris
+IT00115,T0107,4,Eiffel Tower,Synthetic plan for Paris
+IT00116,T0107,5,Louvre Museum,Synthetic plan for Paris
+IT00117,T0107,6,Seine Cruise,Synthetic plan for Paris
+IT00118,T0107,7,Eiffel Tower,Synthetic plan for Paris
+IT00119,T0112,1,Tower of London,Synthetic plan for London
+IT00120,T0112,2,British Museum,Synthetic plan for London
+IT00121,T0112,3,Thames Walk,Synthetic plan for London
+IT00122,T0112,4,Tower of London,Synthetic plan for London
+IT00123,T0112,5,British Museum,Synthetic plan for London
+IT00124,T0121,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00125,T0121,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00126,T0121,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00127,T0121,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00128,T0121,5,Shibuya Crossing,Synthetic plan for Tokyo
+IT00129,T0124,1,Sagrada Familia,Synthetic plan for Barcelona
+IT00130,T0124,2,Park Guell,Synthetic plan for Barcelona
+IT00131,T0124,3,La Boqueria Food Tour,Synthetic plan for Barcelona
+IT00132,T0124,4,Sagrada Familia,Synthetic plan for Barcelona
+IT00133,T0124,5,Park Guell,Synthetic plan for Barcelona
+IT00134,T0124,6,La Boqueria Food Tour,Synthetic plan for Barcelona
+IT00135,T0125,1,Ubud Rice Terraces,Synthetic plan for Bali
+IT00136,T0125,2,Uluwatu Temple,Synthetic plan for Bali
+IT00137,T0125,3,Nusa Penida Trip,Synthetic plan for Bali
+IT00138,T0125,4,Ubud Rice Terraces,Synthetic plan for Bali
+IT00139,T0125,5,Uluwatu Temple,Synthetic plan for Bali
+IT00140,T0125,6,Nusa Penida Trip,Synthetic plan for Bali
+IT00141,T0125,7,Ubud Rice Terraces,Synthetic plan for Bali
+IT00142,T0125,8,Uluwatu Temple,Synthetic plan for Bali
+IT00143,T0133,1,Statue of Liberty,Synthetic plan for New York
+IT00144,T0133,2,Central Park,Synthetic plan for New York
+IT00145,T0133,3,Broadway Show,Synthetic plan for New York
+IT00146,T0133,4,Statue of Liberty,Synthetic plan for New York
+IT00147,T0133,5,Central Park,Synthetic plan for New York
+IT00148,T0133,6,Broadway Show,Synthetic plan for New York
+IT00149,T0133,7,Statue of Liberty,Synthetic plan for New York
+IT00150,T0133,8,Central Park,Synthetic plan for New York
+IT00151,T0134,1,Baga Beach,Synthetic plan for Goa
+IT00152,T0134,2,Old Goa Churches,Synthetic plan for Goa
+IT00153,T0134,3,Dudhsagar Falls,Synthetic plan for Goa
+IT00154,T0134,4,Baga Beach,Synthetic plan for Goa
+IT00155,T0134,5,Old Goa Churches,Synthetic plan for Goa
+IT00156,T0134,6,Dudhsagar Falls,Synthetic plan for Goa
+IT00157,T0134,7,Baga Beach,Synthetic plan for Goa
+IT00158,T0157,1,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00159,T0157,2,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00160,T0157,3,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00161,T0157,4,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00162,T0157,5,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00163,T0157,6,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00164,T0157,7,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00165,T0158,1,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00166,T0158,2,Old Town Walk,Synthetic plan for Zurich
+IT00167,T0158,3,Uetliberg Hike,Synthetic plan for Zurich
+IT00168,T0158,4,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00169,T0158,5,Old Town Walk,Synthetic plan for Zurich
+IT00170,T0158,6,Uetliberg Hike,Synthetic plan for Zurich
+IT00171,T0158,7,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00172,T0163,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00173,T0163,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00174,T0163,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00175,T0163,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00176,T0169,1,Ubud Rice Terraces,Synthetic plan for Bali
+IT00177,T0169,2,Uluwatu Temple,Synthetic plan for Bali
+IT00178,T0169,3,Nusa Penida Trip,Synthetic plan for Bali
+IT00179,T0169,4,Ubud Rice Terraces,Synthetic plan for Bali
+IT00180,T0170,1,Colosseum,Synthetic plan for Rome
+IT00181,T0170,2,Vatican Museums,Synthetic plan for Rome
+IT00182,T0170,3,Trevi Fountain,Synthetic plan for Rome
+IT00183,T0170,4,Colosseum,Synthetic plan for Rome
+IT00184,T0170,5,Vatican Museums,Synthetic plan for Rome
+IT00185,T0170,6,Trevi Fountain,Synthetic plan for Rome
+IT00186,T0170,7,Colosseum,Synthetic plan for Rome
+IT00187,T0170,8,Vatican Museums,Synthetic plan for Rome
+IT00188,T0190,1,Sagrada Familia,Synthetic plan for Barcelona
+IT00189,T0190,2,Park Guell,Synthetic plan for Barcelona
+IT00190,T0190,3,La Boqueria Food Tour,Synthetic plan for Barcelona
+IT00191,T0190,4,Sagrada Familia,Synthetic plan for Barcelona
+IT00192,T0194,1,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00193,T0194,2,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00194,T0194,3,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00195,T0194,4,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00196,T0194,5,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00197,T0194,6,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00198,T0194,7,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00199,T0194,8,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00200,T0195,1,Colosseum,Synthetic plan for Rome
+IT00201,T0195,2,Vatican Museums,Synthetic plan for Rome
+IT00202,T0195,3,Trevi Fountain,Synthetic plan for Rome
+IT00203,T0195,4,Colosseum,Synthetic plan for Rome
+IT00204,T0195,5,Vatican Museums,Synthetic plan for Rome
+IT00205,T0195,6,Trevi Fountain,Synthetic plan for Rome
+IT00206,T0195,7,Colosseum,Synthetic plan for Rome
+IT00207,T0195,8,Vatican Museums,Synthetic plan for Rome
+IT00208,T0195,9,Trevi Fountain,Synthetic plan for Rome
+IT00209,T0201,1,Grand Palace,Synthetic plan for Bangkok
+IT00210,T0201,2,Chatuchak Market,Synthetic plan for Bangkok
+IT00211,T0201,3,Chao Phraya Cruise,Synthetic plan for Bangkok
+IT00212,T0201,4,Grand Palace,Synthetic plan for Bangkok
+IT00213,T0201,5,Chatuchak Market,Synthetic plan for Bangkok
+IT00214,T0204,1,Statue of Liberty,Synthetic plan for New York
+IT00215,T0204,2,Central Park,Synthetic plan for New York
+IT00216,T0204,3,Broadway Show,Synthetic plan for New York
+IT00217,T0204,4,Statue of Liberty,Synthetic plan for New York
+IT00218,T0204,5,Central Park,Synthetic plan for New York
+IT00219,T0204,6,Broadway Show,Synthetic plan for New York
+IT00220,T0218,1,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00221,T0218,2,Old Town Walk,Synthetic plan for Zurich
+IT00222,T0218,3,Uetliberg Hike,Synthetic plan for Zurich
+IT00223,T0218,4,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00224,T0218,5,Old Town Walk,Synthetic plan for Zurich
+IT00225,T0218,6,Uetliberg Hike,Synthetic plan for Zurich
+IT00226,T0218,7,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00227,T0218,8,Old Town Walk,Synthetic plan for Zurich
+IT00228,T0218,9,Uetliberg Hike,Synthetic plan for Zurich
+IT00229,T0220,1,Eiffel Tower,Synthetic plan for Paris
+IT00230,T0220,2,Louvre Museum,Synthetic plan for Paris
+IT00231,T0220,3,Seine Cruise,Synthetic plan for Paris
+IT00232,T0220,4,Eiffel Tower,Synthetic plan for Paris
+IT00233,T0220,5,Louvre Museum,Synthetic plan for Paris
+IT00234,T0220,6,Seine Cruise,Synthetic plan for Paris
+IT00235,T0232,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00236,T0232,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00237,T0232,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00238,T0232,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00239,T0234,1,Phi Phi Islands,Synthetic plan for Phuket
+IT00240,T0234,2,Big Buddha,Synthetic plan for Phuket
+IT00241,T0234,3,Old Town Walk,Synthetic plan for Phuket
+IT00242,T0234,4,Phi Phi Islands,Synthetic plan for Phuket
+IT00243,T0237,1,Grand Palace,Synthetic plan for Bangkok
+IT00244,T0237,2,Chatuchak Market,Synthetic plan for Bangkok
+IT00245,T0237,3,Chao Phraya Cruise,Synthetic plan for Bangkok
+IT00246,T0237,4,Grand Palace,Synthetic plan for Bangkok
+IT00247,T0237,5,Chatuchak Market,Synthetic plan for Bangkok
+IT00248,T0237,6,Chao Phraya Cruise,Synthetic plan for Bangkok
+IT00249,T0242,1,Gardens by the Bay,Synthetic plan for Singapore
+IT00250,T0242,2,Sentosa Island,Synthetic plan for Singapore
+IT00251,T0242,3,Night Safari,Synthetic plan for Singapore
+IT00252,T0242,4,Gardens by the Bay,Synthetic plan for Singapore
+IT00253,T0242,5,Sentosa Island,Synthetic plan for Singapore
+IT00254,T0249,1,Ubud Rice Terraces,Synthetic plan for Bali
+IT00255,T0249,2,Uluwatu Temple,Synthetic plan for Bali
+IT00256,T0249,3,Nusa Penida Trip,Synthetic plan for Bali
+IT00257,T0249,4,Ubud Rice Terraces,Synthetic plan for Bali
+IT00258,T0249,5,Uluwatu Temple,Synthetic plan for Bali
+IT00259,T0249,6,Nusa Penida Trip,Synthetic plan for Bali
+IT00260,T0249,7,Ubud Rice Terraces,Synthetic plan for Bali
+IT00261,T0249,8,Uluwatu Temple,Synthetic plan for Bali
+IT00262,T0254,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00263,T0254,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00264,T0254,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00265,T0254,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00266,T0254,5,Shibuya Crossing,Synthetic plan for Tokyo
+IT00267,T0256,1,Snorkelling Tour,Synthetic plan for Maldives
+IT00268,T0256,2,Sandbank Picnic,Synthetic plan for Maldives
+IT00269,T0256,3,Dolphin Cruise,Synthetic plan for Maldives
+IT00270,T0256,4,Snorkelling Tour,Synthetic plan for Maldives
+IT00271,T0256,5,Sandbank Picnic,Synthetic plan for Maldives
+IT00272,T0267,1,Burj Khalifa,Synthetic plan for Dubai
+IT00273,T0267,2,Desert Safari,Synthetic plan for Dubai
+IT00274,T0267,3,Dubai Mall,Synthetic plan for Dubai
+IT00275,T0267,4,Burj Khalifa,Synthetic plan for Dubai
+IT00276,T0267,5,Desert Safari,Synthetic plan for Dubai
+IT00277,T0273,1,Statue of Liberty,Synthetic plan for New York
+IT00278,T0273,2,Central Park,Synthetic plan for New York
+IT00279,T0273,3,Broadway Show,Synthetic plan for New York
+IT00280,T0273,4,Statue of Liberty,Synthetic plan for New York
+IT00281,T0273,5,Central Park,Synthetic plan for New York
+IT00282,T0273,6,Broadway Show,Synthetic plan for New York
+IT00283,T0273,7,Statue of Liberty,Synthetic plan for New York
+IT00284,T0282,1,Baga Beach,Synthetic plan for Goa
+IT00285,T0282,2,Old Goa Churches,Synthetic plan for Goa
+IT00286,T0282,3,Dudhsagar Falls,Synthetic plan for Goa
+IT00287,T0282,4,Baga Beach,Synthetic plan for Goa
+IT00288,T0282,5,Old Goa Churches,Synthetic plan for Goa
+IT00289,T0282,6,Dudhsagar Falls,Synthetic plan for Goa
+IT00290,T0287,1,Statue of Liberty,Synthetic plan for New York
+IT00291,T0287,2,Central Park,Synthetic plan for New York
+IT00292,T0287,3,Broadway Show,Synthetic plan for New York
+IT00293,T0287,4,Statue of Liberty,Synthetic plan for New York
+IT00294,T0287,5,Central Park,Synthetic plan for New York
+IT00295,T0287,6,Broadway Show,Synthetic plan for New York
+IT00296,T0294,1,Gardens by the Bay,Synthetic plan for Singapore
+IT00297,T0294,2,Sentosa Island,Synthetic plan for Singapore
+IT00298,T0294,3,Night Safari,Synthetic plan for Singapore
+IT00299,T0294,4,Gardens by the Bay,Synthetic plan for Singapore
+IT00300,T0294,5,Sentosa Island,Synthetic plan for Singapore
+IT00301,T0294,6,Night Safari,Synthetic plan for Singapore
+IT00302,T0294,7,Gardens by the Bay,Synthetic plan for Singapore
+IT00303,T0298,1,Hagia Sophia,Synthetic plan for Istanbul
+IT00304,T0298,2,Grand Bazaar,Synthetic plan for Istanbul
+IT00305,T0298,3,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00306,T0298,4,Hagia Sophia,Synthetic plan for Istanbul
+IT00307,T0298,5,Grand Bazaar,Synthetic plan for Istanbul
+IT00308,T0309,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00309,T0309,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00310,T0309,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00311,T0309,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00312,T0309,5,Shibuya Crossing,Synthetic plan for Tokyo
+IT00313,T0312,1,Tower of London,Synthetic plan for London
+IT00314,T0312,2,British Museum,Synthetic plan for London
+IT00315,T0312,3,Thames Walk,Synthetic plan for London
+IT00316,T0312,4,Tower of London,Synthetic plan for London
+IT00317,T0312,5,British Museum,Synthetic plan for London
+IT00318,T0312,6,Thames Walk,Synthetic plan for London
+IT00319,T0318,1,Baga Beach,Synthetic plan for Goa
+IT00320,T0318,2,Old Goa Churches,Synthetic plan for Goa
+IT00321,T0318,3,Dudhsagar Falls,Synthetic plan for Goa
+IT00322,T0318,4,Baga Beach,Synthetic plan for Goa
+IT00323,T0318,5,Old Goa Churches,Synthetic plan for Goa
+IT00324,T0318,6,Dudhsagar Falls,Synthetic plan for Goa
+IT00325,T0319,1,Grand Palace,Synthetic plan for Bangkok
+IT00326,T0319,2,Chatuchak Market,Synthetic plan for Bangkok
+IT00327,T0319,3,Chao Phraya Cruise,Synthetic plan for Bangkok
+IT00328,T0319,4,Grand Palace,Synthetic plan for Bangkok
+IT00329,T0319,5,Chatuchak Market,Synthetic plan for Bangkok
+IT00330,T0321,1,Tower of London,Synthetic plan for London
+IT00331,T0321,2,British Museum,Synthetic plan for London
+IT00332,T0321,3,Thames Walk,Synthetic plan for London
+IT00333,T0321,4,Tower of London,Synthetic plan for London
+IT00334,T0321,5,British Museum,Synthetic plan for London
+IT00335,T0321,6,Thames Walk,Synthetic plan for London
+IT00336,T0332,1,Victoria Peak,Synthetic plan for Hong Kong
+IT00337,T0332,2,Star Ferry,Synthetic plan for Hong Kong
+IT00338,T0332,3,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00339,T0332,4,Victoria Peak,Synthetic plan for Hong Kong
+IT00340,T0332,5,Star Ferry,Synthetic plan for Hong Kong
+IT00341,T0332,6,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00342,T0332,7,Victoria Peak,Synthetic plan for Hong Kong
+IT00343,T0332,8,Star Ferry,Synthetic plan for Hong Kong
+IT00344,T0350,1,Ubud Rice Terraces,Synthetic plan for Bali
+IT00345,T0350,2,Uluwatu Temple,Synthetic plan for Bali
+IT00346,T0350,3,Nusa Penida Trip,Synthetic plan for Bali
+IT00347,T0350,4,Ubud Rice Terraces,Synthetic plan for Bali
+IT00348,T0350,5,Uluwatu Temple,Synthetic plan for Bali
+IT00349,T0350,6,Nusa Penida Trip,Synthetic plan for Bali
+IT00350,T0350,7,Ubud Rice Terraces,Synthetic plan for Bali
+IT00351,T0350,8,Uluwatu Temple,Synthetic plan for Bali
+IT00352,T0350,9,Nusa Penida Trip,Synthetic plan for Bali
+IT00353,T0350,10,Ubud Rice Terraces,Synthetic plan for Bali
+IT00354,T0351,1,Opera House,Synthetic plan for Sydney
+IT00355,T0351,2,Bondi Beach,Synthetic plan for Sydney
+IT00356,T0351,3,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00357,T0351,4,Opera House,Synthetic plan for Sydney
+IT00358,T0351,5,Bondi Beach,Synthetic plan for Sydney
+IT00359,T0351,6,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00360,T0351,7,Opera House,Synthetic plan for Sydney
+IT00361,T0351,8,Bondi Beach,Synthetic plan for Sydney
+IT00362,T0352,1,Tower of London,Synthetic plan for London
+IT00363,T0352,2,British Museum,Synthetic plan for London
+IT00364,T0352,3,Thames Walk,Synthetic plan for London
+IT00365,T0352,4,Tower of London,Synthetic plan for London
+IT00366,T0352,5,British Museum,Synthetic plan for London
+IT00367,T0353,1,Victoria Peak,Synthetic plan for Hong Kong
+IT00368,T0353,2,Star Ferry,Synthetic plan for Hong Kong
+IT00369,T0353,3,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00370,T0353,4,Victoria Peak,Synthetic plan for Hong Kong
+IT00371,T0353,5,Star Ferry,Synthetic plan for Hong Kong
+IT00372,T0353,6,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00373,T0353,7,Victoria Peak,Synthetic plan for Hong Kong
+IT00374,T0363,1,Hagia Sophia,Synthetic plan for Istanbul
+IT00375,T0363,2,Grand Bazaar,Synthetic plan for Istanbul
+IT00376,T0363,3,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00377,T0363,4,Hagia Sophia,Synthetic plan for Istanbul
+IT00378,T0363,5,Grand Bazaar,Synthetic plan for Istanbul
+IT00379,T0363,6,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00380,T0363,7,Hagia Sophia,Synthetic plan for Istanbul
+IT00381,T0363,8,Grand Bazaar,Synthetic plan for Istanbul
+IT00382,T0364,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00383,T0364,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00384,T0364,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00385,T0364,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00386,T0364,5,Shibuya Crossing,Synthetic plan for Tokyo
+IT00387,T0364,6,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00388,T0368,1,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00389,T0368,2,Old Town Walk,Synthetic plan for Zurich
+IT00390,T0368,3,Uetliberg Hike,Synthetic plan for Zurich
+IT00391,T0368,4,Lake Zurich Cruise,Synthetic plan for Zurich
+IT00392,T0370,1,Phi Phi Islands,Synthetic plan for Phuket
+IT00393,T0370,2,Big Buddha,Synthetic plan for Phuket
+IT00394,T0370,3,Old Town Walk,Synthetic plan for Phuket
+IT00395,T0370,4,Phi Phi Islands,Synthetic plan for Phuket
+IT00396,T0370,5,Big Buddha,Synthetic plan for Phuket
+IT00397,T0370,6,Old Town Walk,Synthetic plan for Phuket
+IT00398,T0370,7,Phi Phi Islands,Synthetic plan for Phuket
+IT00399,T0370,8,Big Buddha,Synthetic plan for Phuket
+IT00400,T0378,1,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00401,T0378,2,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00402,T0378,3,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00403,T0378,4,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00404,T0398,1,Tower of London,Synthetic plan for London
+IT00405,T0398,2,British Museum,Synthetic plan for London
+IT00406,T0398,3,Thames Walk,Synthetic plan for London
+IT00407,T0398,4,Tower of London,Synthetic plan for London
+IT00408,T0398,5,British Museum,Synthetic plan for London
+IT00409,T0398,6,Thames Walk,Synthetic plan for London
+IT00410,T0398,7,Tower of London,Synthetic plan for London
+IT00411,T0409,1,Gardens by the Bay,Synthetic plan for Singapore
+IT00412,T0409,2,Sentosa Island,Synthetic plan for Singapore
+IT00413,T0409,3,Night Safari,Synthetic plan for Singapore
+IT00414,T0409,4,Gardens by the Bay,Synthetic plan for Singapore
+IT00415,T0409,5,Sentosa Island,Synthetic plan for Singapore
+IT00416,T0409,6,Night Safari,Synthetic plan for Singapore
+IT00417,T0409,7,Gardens by the Bay,Synthetic plan for Singapore
+IT00418,T0411,1,Snorkelling Tour,Synthetic plan for Maldives
+IT00419,T0411,2,Sandbank Picnic,Synthetic plan for Maldives
+IT00420,T0411,3,Dolphin Cruise,Synthetic plan for Maldives
+IT00421,T0411,4,Snorkelling Tour,Synthetic plan for Maldives
+IT00422,T0411,5,Sandbank Picnic,Synthetic plan for Maldives
+IT00423,T0415,1,Baga Beach,Synthetic plan for Goa
+IT00424,T0415,2,Old Goa Churches,Synthetic plan for Goa
+IT00425,T0415,3,Dudhsagar Falls,Synthetic plan for Goa
+IT00426,T0415,4,Baga Beach,Synthetic plan for Goa
+IT00427,T0419,1,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00428,T0419,2,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00429,T0419,3,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00430,T0419,4,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00431,T0419,5,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00432,T0419,6,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00433,T0419,7,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00434,T0419,8,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00435,T0422,1,Statue of Liberty,Synthetic plan for New York
+IT00436,T0422,2,Central Park,Synthetic plan for New York
+IT00437,T0422,3,Broadway Show,Synthetic plan for New York
+IT00438,T0422,4,Statue of Liberty,Synthetic plan for New York
+IT00439,T0422,5,Central Park,Synthetic plan for New York
+IT00440,T0422,6,Broadway Show,Synthetic plan for New York
+IT00441,T0422,7,Statue of Liberty,Synthetic plan for New York
+IT00442,T0422,8,Central Park,Synthetic plan for New York
+IT00443,T0422,9,Broadway Show,Synthetic plan for New York
+IT00444,T0429,1,Ubud Rice Terraces,Synthetic plan for Bali
+IT00445,T0429,2,Uluwatu Temple,Synthetic plan for Bali
+IT00446,T0429,3,Nusa Penida Trip,Synthetic plan for Bali
+IT00447,T0429,4,Ubud Rice Terraces,Synthetic plan for Bali
+IT00448,T0429,5,Uluwatu Temple,Synthetic plan for Bali
+IT00449,T0429,6,Nusa Penida Trip,Synthetic plan for Bali
+IT00450,T0429,7,Ubud Rice Terraces,Synthetic plan for Bali
+IT00451,T0429,8,Uluwatu Temple,Synthetic plan for Bali
+IT00452,T0436,1,Eiffel Tower,Synthetic plan for Paris
+IT00453,T0436,2,Louvre Museum,Synthetic plan for Paris
+IT00454,T0436,3,Seine Cruise,Synthetic plan for Paris
+IT00455,T0436,4,Eiffel Tower,Synthetic plan for Paris
+IT00456,T0436,5,Louvre Museum,Synthetic plan for Paris
+IT00457,T0436,6,Seine Cruise,Synthetic plan for Paris
+IT00458,T0436,7,Eiffel Tower,Synthetic plan for Paris
+IT00459,T0436,8,Louvre Museum,Synthetic plan for Paris
+IT00460,T0437,1,Hagia Sophia,Synthetic plan for Istanbul
+IT00461,T0437,2,Grand Bazaar,Synthetic plan for Istanbul
+IT00462,T0437,3,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00463,T0437,4,Hagia Sophia,Synthetic plan for Istanbul
+IT00464,T0437,5,Grand Bazaar,Synthetic plan for Istanbul
+IT00465,T0437,6,Bosphorus Cruise,Synthetic plan for Istanbul
+IT00466,T0437,7,Hagia Sophia,Synthetic plan for Istanbul
+IT00467,T0437,8,Grand Bazaar,Synthetic plan for Istanbul
+IT00468,T0446,1,Baga Beach,Synthetic plan for Goa
+IT00469,T0446,2,Old Goa Churches,Synthetic plan for Goa
+IT00470,T0446,3,Dudhsagar Falls,Synthetic plan for Goa
+IT00471,T0446,4,Baga Beach,Synthetic plan for Goa
+IT00472,T0446,5,Old Goa Churches,Synthetic plan for Goa
+IT00473,T0446,6,Dudhsagar Falls,Synthetic plan for Goa
+IT00474,T0461,1,Grand Palace,Synthetic plan for Bangkok
+IT00475,T0461,2,Chatuchak Market,Synthetic plan for Bangkok
+IT00476,T0461,3,Chao Phraya Cruise,Synthetic plan for Bangkok
+IT00477,T0461,4,Grand Palace,Synthetic plan for Bangkok
+IT00478,T0468,1,Senso-ji Temple,Synthetic plan for Tokyo
+IT00479,T0468,2,Shibuya Crossing,Synthetic plan for Tokyo
+IT00480,T0468,3,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00481,T0468,4,Senso-ji Temple,Synthetic plan for Tokyo
+IT00482,T0468,5,Shibuya Crossing,Synthetic plan for Tokyo
+IT00483,T0468,6,Tsukiji Food Tour,Synthetic plan for Tokyo
+IT00484,T0468,7,Senso-ji Temple,Synthetic plan for Tokyo
+IT00485,T0475,1,Opera House,Synthetic plan for Sydney
+IT00486,T0475,2,Bondi Beach,Synthetic plan for Sydney
+IT00487,T0475,3,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00488,T0475,4,Opera House,Synthetic plan for Sydney
+IT00489,T0475,5,Bondi Beach,Synthetic plan for Sydney
+IT00490,T0475,6,Harbour Bridge Climb,Synthetic plan for Sydney
+IT00491,T0475,7,Opera House,Synthetic plan for Sydney
+IT00492,T0476,1,Victoria Peak,Synthetic plan for Hong Kong
+IT00493,T0476,2,Star Ferry,Synthetic plan for Hong Kong
+IT00494,T0476,3,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00495,T0476,4,Victoria Peak,Synthetic plan for Hong Kong
+IT00496,T0476,5,Star Ferry,Synthetic plan for Hong Kong
+IT00497,T0476,6,Lantau Big Buddha,Synthetic plan for Hong Kong
+IT00498,T0476,7,Victoria Peak,Synthetic plan for Hong Kong
+IT00499,T0476,8,Star Ferry,Synthetic plan for Hong Kong
+IT00500,T0480,1,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00501,T0480,2,Batu Caves,Synthetic plan for Kuala Lumpur
+IT00502,T0480,3,Bukit Bintang Food Walk,Synthetic plan for Kuala Lumpur
+IT00503,T0480,4,Petronas Towers,Synthetic plan for Kuala Lumpur
+IT00504,T0481,1,Statue of Liberty,Synthetic plan for New York
+IT00505,T0481,2,Central Park,Synthetic plan for New York
+IT00506,T0481,3,Broadway Show,Synthetic plan for New York
+IT00507,T0481,4,Statue of Liberty,Synthetic plan for New York
+IT00508,T0481,5,Central Park,Synthetic plan for New York
+IT00509,T0481,6,Broadway Show,Synthetic plan for New York
+IT00510,T0492,1,Colosseum,Synthetic plan for Rome
+IT00511,T0492,2,Vatican Museums,Synthetic plan for Rome
+IT00512,T0492,3,Trevi Fountain,Synthetic plan for Rome
+IT00513,T0492,4,Colosseum,Synthetic plan for Rome
+IT00514,T0492,5,Vatican Museums,Synthetic plan for Rome
+IT00515,T0492,6,Trevi Fountain,Synthetic plan for Rome
+IT00516,T0492,7,Colosseum,Synthetic plan for Rome
+IT00517,T0495,1,Tower of London,Synthetic plan for London
+IT00518,T0495,2,British Museum,Synthetic plan for London
+IT00519,T0495,3,Thames Walk,Synthetic plan for London
+IT00520,T0495,4,Tower of London,Synthetic plan for London
+IT00521,T0495,5,British Museum,Synthetic plan for London
+IT00522,T0495,6,Thames Walk,Synthetic plan for London
+IT00523,T0495,7,Tower of London,Synthetic plan for London
+IT00524,T0497,1,Gardens by the Bay,Synthetic plan for Singapore
+IT00525,T0497,2,Sentosa Island,Synthetic plan for Singapore
+IT00526,T0497,3,Night Safari,Synthetic plan for Singapore
+IT00527,T0497,4,Gardens by the Bay,Synthetic plan for Singapore
+IT00528,T0497,5,Sentosa Island,Synthetic plan for Singapore
+IT00529,T0497,6,Night Safari,Synthetic plan for Singapore
