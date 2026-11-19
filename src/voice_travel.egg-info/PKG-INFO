@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: voice-travel
+Version: 0.1.0
+Summary: Voice Travel Agent - data layer and services
+Requires-Python: >=3.11
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: psycopg[binary]>=3.1
+Requires-Dist: redis>=5.0
+Requires-Dist: pydantic-settings>=2.2
+Requires-Dist: alembic>=1.13
+Provides-Extra: voice
+Requires-Dist: fastapi>=0.110; extra == "voice"
+Requires-Dist: uvicorn>=0.29; extra == "voice"
+Requires-Dist: livekit-api>=1.0; extra == "voice"
+Requires-Dist: livekit>=1.0; extra == "voice"
+Requires-Dist: numpy>=1.26; extra == "voice"
+Requires-Dist: onnxruntime>=1.17; extra == "voice"
+Requires-Dist: faster-whisper>=1.0; extra == "voice"
+Requires-Dist: piper-tts>=1.3; extra == "voice"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+Requires-Dist: httpx>=0.27; extra == "dev"
+Requires-Dist: fakeredis>=2.20; extra == "dev"

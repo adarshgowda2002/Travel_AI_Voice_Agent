@@ -1,0 +1,7 @@
+[console_scripts]
+fetch-voice-models = voice_travel.voice.models:main
+seed-postgres = voice_travel.seeding.postgres:main
+seed-redis = voice_travel.seeding.redis:main
+voice-api = voice_travel.voice.api:main
+voice-echo-agent = voice_travel.voice.dev_echo_agent:main
+voice-worker = voice_travel.voice.worker:main

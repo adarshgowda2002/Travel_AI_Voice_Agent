@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice layer demo</title>
+<style>
+  :root { --bg:#f7f7f5; --fg:#1c1c1a; --muted:#6b6b66; --line:#dcdcd6; --card:#fff; --accent:#2457d6; --warn:#a15c00; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141413; --fg:#ecece8; --muted:#9a9a93; --line:#2e2e2b; --card:#1d1d1b; --accent:#7ea2ff; --warn:#e0a24a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.sub { margin: 0 0 20px; color: var(--muted); font-size: 14px; }
+  .bar { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:12px; }
+  input { padding:8px 10px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--fg); width:110px; font:inherit; }
+  button { padding:8px 14px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--fg); font:inherit; cursor:pointer; }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  button:disabled { opacity:.5; cursor:default; }
+  #status { color:var(--muted); font-size:14px; margin-bottom:16px; min-height:1.5em; }
+  #log { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  #log li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
+  #log li small { display:block; color:var(--muted); font-size:12px; margin-top:2px; }
+  #log li.partial { color:var(--muted); font-style:italic; }
+  #log li.error { color:var(--warn); }
+  #empty { color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Voice layer demo</h1>
+  <p class="sub">Speak after connecting. Each finished utterance appears below as the voice layer reports it, and
+    you hear the agent's reply. Talk over the reply to interrupt it.</p>
+  <div class="bar">
+    <label for="user">User id</label>
+    <input id="user" value="U0001">
+    <button id="start" class="primary">Start call</button>
+    <button id="end" disabled>End call</button>
+  </div>
+  <div id="status" role="status" aria-live="polite">Not connected.</div>
+  <ul id="log"></ul>
+  <p id="empty">No utterances yet.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/livekit-client@2.15.0/dist/livekit-client.umd.js"></script>
+<script>
+const $ = (id) => document.getElementById(id);
+let room = null, ws = null, sessionId = null, partialEl = null;
+
+function setStatus(text) { $("status").textContent = text; }
+
+function addLine(text, cls, note) {
+  $("empty").hidden = true;
+  const li = document.createElement("li");
+  if (cls) li.className = cls;
+  li.textContent = text;
+  if (note) { const s = document.createElement("small"); s.textContent = note; li.appendChild(s); }
+  $("log").appendChild(li);
+  return li;
+}
+
+function onEvent(e) {
+  if (e.type === "call.started") setStatus("Voice worker joined. Listening.");
+  else if (e.type === "playback.started") setStatus("Agent speaking...");
+  else if (e.type === "playback.ended") {
+    setStatus("Listening.");
+    if (!e.completed) addLine("Agent interrupted", "error", "heard " + e.played_ms + " ms of it");
+  }
+  else if (e.type === "call.ended") setStatus("Call ended.");
+  else if (e.type === "utterance.partial") {
+    if (!partialEl) partialEl = addLine(e.text, "partial");
+    else partialEl.textContent = e.text;
+  } else if (e.type === "utterance.final") {
+    if (partialEl) { partialEl.remove(); partialEl = null; }
+    const conf = e.confidence == null ? "" : "confidence " + Math.round(e.confidence * 100) + "%";
+    addLine(e.text, "", (e.during_playback ? "spoken over the agent. " : "") + conf);
+  } else if (e.type === "transport.error") addLine("Problem in " + e.component + " (" + e.detail + ")", "error");
+}
+
+async function start() {
+  $("start").disabled = true;
+  setStatus("Creating session...");
+  try {
+    const res = await fetch("/api/v1/voice/session", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ user_id: $("user").value.trim() }),
+    });
+    if (!res.ok) throw new Error("session request failed (" + res.status + ")");
+    const s = await res.json();
+    sessionId = s.session_id;
+    const scheme = location.protocol === "https:" ? "wss" : "ws";
+    ws = new WebSocket(scheme + "://" + location.host + "/api/v1/voice/events/" + sessionId + "?token=" + encodeURIComponent(s.token));
+    ws.onmessage = (m) => onEvent(JSON.parse(m.data));
+    room = new LivekitClient.Room();
+    room.on(LivekitClient.RoomEvent.TrackSubscribed, (track) => {
+      if (track.kind === "audio") { const el = track.attach(); el.dataset.agent = "1"; document.body.appendChild(el); }
+    });
+    await room.connect(s.url, s.token);
+    await room.localParticipant.setMicrophoneEnabled(true);
+    setStatus("Connected. Waiting for the voice worker...");
+    $("end").disabled = false;
+  } catch (err) {
+    setStatus("Could not start: " + err.message);
+    await end();
+  }
+}
+
+async function end() {
+  document.querySelectorAll("audio[data-agent]").forEach((el) => el.remove());
+  if (room) { await room.disconnect(); room = null; }
+  if (ws) { ws.close(); ws = null; }
+  if (sessionId) {
+    try { await fetch("/api/v1/voice/session/" + sessionId + "/end", { method: "POST" }); } catch (_) {}
+    sessionId = null;
+  }
+  $("start").disabled = false;
+  $("end").disabled = true;
+  if ($("status").textContent.startsWith("Connected") || $("status").textContent.startsWith("Voice")) setStatus("Call ended.");
+}
+
+$("start").addEventListener("click", start);
+$("end").addEventListener("click", end);
+</script>
+</body>
+</html>
